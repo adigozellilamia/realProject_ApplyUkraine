@@ -1,0 +1,154 @@
+﻿@using ApplyUkraine.Models;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header class="head">
+    <div class="container">
+        <div class="image">
+            <nav class="navbars">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="logo">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="~/Public/images/apply-ukraine-logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-9 d-flex">
+                        <div class="btn-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu">
+                            <ul class="navs-menu">
+                                <li class="navs-item active">
+                                    <a href="@Url.Action("index","home")" class="navs-a">Home</a>
+                                </li>
+                                <li class="navs-item">
+                                    <a class="navs-a">
+                                        About Us
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a href="@Url.Action("index","aboutUs")">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","services")">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","faqs")">Faqs</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","blog")">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="#" class="navs-a">
+                                        Ukraine universiyies
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        @foreach (University item in ViewBag.Universities)
+                                        {
+                                            <li>
+                                                <a href="@Url.Action("index","universities",new { id = item.Id })">@item.Name</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="@Url.Action("index","contact")" class="navs-a">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <a href="@Url.Action("index","applicationform")">
+                                <span>Application form</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="item">
+                <div class="text-head">
+                    <h1>FAQ PAGE</h1>
+                </div>
+            </div>
+            <div class="content-page">
+                <ul class="list">
+                    <li>
+                        <a href="@Url.Action("index","home")">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("index","faqs")">FAQs</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="faq">
+    <div class="container">
+        <div class="faq-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="head-text">
+                            <h3>FREQUENTLY ASKED QUESTIONS</h3>
+                            <p>Answer all of your questions</p>
+                            <span></span>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <div class="head-text">
+                            <h4>Admission</h4>
+                            <span></span>
+                        </div>
+                        <div class="accardion-box">
+                            <ul>
+                                @foreach (About item in ViewBag.faqsLeft)
+                                {
+                                    <li>
+                                        <p class="head">@item.Header</p>
+                                        <div class="text">
+                                            <p>@item.Text</p>
+                                        </div>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="head-text">
+                            <h4>Living in Ukraine</h4>
+                            <span></span>
+                        </div>
+                        <div class="accardion-box">
+                            <ul>
+                                @foreach (About item in ViewBag.faqsRight)
+                                {
+                                    <li>
+                                        <p class="head">@item.Header</p>
+                                        <div class="text">
+                                            <p>@item.Text</p>
+                                        </div>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

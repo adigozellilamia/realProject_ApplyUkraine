@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3ec94a2d3349461c8f18113bf445ee24" Name="Diagram1" ZoomLevel="76">
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.About" Width="1.5" PointX="7.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.AdminDashboard" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.ApplicationForm" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Blog" Width="1.5" PointX="7.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Comment" Width="1.5" PointX="10" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Cours" Width="1.5" PointX="7.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.CoursToUniversity" Width="1.5" PointX="10" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Degree" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Description" Width="1.5" PointX="10" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Faculty" Width="1.5" PointX="5.5" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Image" Width="1.5" PointX="10" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.InvitationLetter" Width="1.5" PointX="7.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.SectionName" Width="1.5" PointX="5.5" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Status" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.University" Width="1.5" PointX="7.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.UsersForm" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_Abouts_SectionName" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_Images_Abouts" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_ApplicationForms_ApplicationForms" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_ApplicationForms_Degrees" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_UsersForms_ApplicationForms" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK__Comments__BlogId__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_Images_Blog" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK__Courses__Faculty__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK__CoursToUn__Cours__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK__CoursToUn__Unive__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK__Descripti__Unive__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_Images_Universities" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.Letter" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="DB_A3F430_Javid009Model.User" Width="1.5" PointX="5.25" PointY="7.375" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK__Invitatio__UserI__5165187F" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_UsersForms_Letters" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_Users_Status" />
+        <AssociationConnector Association="DB_A3F430_Javid009Model.FK_UsersForms_Users" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

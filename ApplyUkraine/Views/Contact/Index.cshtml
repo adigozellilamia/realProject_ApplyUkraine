@@ -1,0 +1,207 @@
+﻿@using ApplyUkraine.Models;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header class="head">
+    <div class="container">
+        <div class="image">
+            <nav class="navbars">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="logo">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="~/Public/images/apply-ukraine-logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-9 d-flex">
+                        <div class="btn-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu">
+                            <ul class="navs-menu">
+                                <li class="navs-item active">
+                                    <a href="@Url.Action("index","home")" class="navs-a">Home</a>
+                                </li>
+                                <li class="navs-item">
+                                    <a class="navs-a">
+                                        About Us
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a href="@Url.Action("index","aboutUs")">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","services")">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","faqs")">Faqs</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","blog")">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="#" class="navs-a">
+                                        Ukraine universiyies
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        @foreach (University item in ViewBag.Universities)
+                                        {
+                                            <li>
+                                                <a href="@Url.Action("index","universities",new { id = item.Id })">@item.Name</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="@Url.Action("index","contact")" class="navs-a">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <a href="@Url.Action("index","applicationform")">
+                                <span>Application form</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="item">
+                <div class="text-head">
+                    <h1>CONTACT</h1>
+                </div>
+            </div>
+            <div class="content-page">
+                <ul class="list">
+                    <li>
+                        <a href="@Url.Action("index","home")">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("index","contact")">Contact</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="contact">
+    <div class="container">
+        <div class="contact-box">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="box">
+                        <div class="header">
+                            <h3>Contact info</h3>
+                            <p>Welcome to our Website. We are glad to have you around.</p>
+                        </div>
+                        <div class="contact-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="content-box">
+                                        <div class="icon">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        <div class="tel">
+                                            <a href="">Phone</a>
+                                            <a href="">+380 (94) 711 70 96</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="content-box">
+                                        <div class="icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="mail">
+                                            <a href="">Email</a>
+                                            <a href="">info@applyukraine.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <hr>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="content-box">
+                                        <div class="icon">
+                                            <i class="fas fa-map-marker"></i>
+                                        </div>
+                                        <div class="address">
+                                            <a href="">Address</a>
+                                            <br>
+                                            <a href="">111A Klochkovskaya str., Tetris Business Center</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-content">
+                            <ul class="list">
+                                <li>
+                                    <a href="https://www.facebook.com/studyinukrainearabic">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/apply_ukraine">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/applyukraine/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="box">
+                        <div class="header">
+                            <h3>Send a message</h3>
+                            <p>Your email address will not be published. Required fields are marked.</p>
+                        </div>
+                        <div class="input-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <input type="text" placeholder="Name *">
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <input type="text" placeholder="Email *">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" placeholder="Subject *">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea name="" cols="40" rows="10" placeholder="Message *"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="btn-demo">
+                                        <a href="#">Submit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10255.662852053634!2d36.226978!3d50.012935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe208ac2235540c2f!2sNaukova!5e0!3m2!1sen!2s!4v1529268347840"
+                            width="100%" height="380px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

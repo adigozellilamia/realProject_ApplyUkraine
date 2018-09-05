@@ -1,0 +1,52 @@
+﻿@model ApplyUkraine.Models.About
+
+@{
+    ViewBag.Title = "Abouts";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="color: #716aca;">Details</h3>
+
+<div>
+    <h4>About</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Header)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Header)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Text)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Button)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Button)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SectionName.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SectionName.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <h5 style="padding-top:5px;"> @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) </h5>
+    <h5 style="padding-top:5px;">@Html.ActionLink("Back to List", "Index")</h5>
+    
+</p>

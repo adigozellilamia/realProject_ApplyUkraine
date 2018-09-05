@@ -1,0 +1,491 @@
+﻿@using ApplyUkraine.Models;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section CountryApi{
+    <script src="~/Public/Universities.js"></script>
+    <script src="~/Public/CountriesApi.js"></script>
+
+}
+
+
+<header class="head">
+    @if (Session["Unconfirmed"] != null)
+    {
+        <h2>Please confirm your email before submit your applicationform</h2>
+    }
+    <div class="container">
+        <div class="image">
+            <nav class="navbars">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="logo">
+                            <a href="index.html">
+                                <div class="image">
+                                    <img src="~/Public/images/apply-ukraine-logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-9 d-flex">
+                        <div class="btn-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu">
+                            <ul class="navs-menu">
+                                <li class="navs-item active">
+                                    <a href="@Url.Action("index","home")" class="navs-a">Home</a>
+                                </li>
+                                <li class="navs-item">
+                                    <a class="navs-a">
+                                        About Us
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a href="@Url.Action("index","aboutUs")">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","services")">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","faqs")">Faqs</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","blog")">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="#" class="navs-a">
+                                        Ukraine universiyies
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        @foreach (University item in ViewBag.Universities)
+                                        {
+                                            <li>
+                                                <a href="@Url.Action("index","universities",new { id = item.Id })">@item.Name</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="@Url.Action("index","contact")" class="navs-a">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <a href="@Url.Action("index","applicationform")">
+                                <span>Application form</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="item">
+                <div class="text-head">
+                    <h1>Application form</h1>
+                </div>
+            </div>
+            <div class="content-page">
+                <ul class="list">
+                    <li>
+                        <a href="@Url.Action("index","home")">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("index","applicationform")">Application Form</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="application-form">
+    <div class="container">
+        <div class="application-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="head-text">
+                            <h3>Admission 2018</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="head-text head">
+                            <h4>Admission Process</h4>
+                        </div>
+                        <div class="accardion-box">
+                            <ul>
+                                <li class="active">
+                                    <p class="head">
+                                        <i class="fas fa-file-alt"></i>Documents
+                                    </p>
+                                    <div class="text">
+                                        <p>Below documents should be scanned and sent to us.</p>
+                                        <ul class="list">
+                                            <li>Passport</li>
+                                            <li>School certificate</li>
+                                            <li>Bachelor Diploma / Master Diploma (if available)</li>
+                                            <li>Transcript</li>
+                                        </ul>
+                                        <p></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="head">
+                                        <i class="fas fa-envelope"></i>invitation letter
+                                    </p>
+                                    <div class="text">
+                                        <p>
+                                            After application process is started, we get the invitation letter in about one week. As soon as an
+                                            invitation letter is ready, we send hard copy of it to the applicant via DHL. Applicant should pay
+                                            99$ (invitation letter fee) and courier service fee in advance.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="head">
+                                        <i class="fab fa-cc-visa"></i>visa application
+                                    </p>
+                                    <div class="text">
+                                        <p>List of the documents required to obtain visa for study in Ukraine:</p>
+                                        <ol class="list">
+                                            <li>
+                                                A completely filled in visa application form per each passport holder – dated and personally signed
+                                                by the applicant. Visa application registration and making an appointment at the consular section
+                                                of the Embassy for submitting visa application packages must be made through the web-site:
+                                                <a href="http://visa.mfa.gov.ua">http://visa.mfa.gov.ua</a>
+                                            </li>
+                                            <li>
+                                                Birth certificate (legalized and officially translated into Ukrainian) and three ordinary copies
+                                                of it.
+                                            </li>
+                                            <li>
+                                                Medical certificate (legalized and officially translated into Ukrainian) and three ordinary copies
+                                                of it.
+                                            </li>
+                                            <li>
+                                                School certificate (legalized and officially translated into Ukrainian) and three ordinary copies
+                                                of it.
+                                            </li>
+                                            <li>
+                                                Valid health insurance with coverage of at least 30,000 EUR or equivalent in other currency, unless
+                                                otherwise stipulated by legislation or international treaties of Ukraine. When multi-entry visa
+                                                is requested, availability of health insurance valid for the first intended visit to Ukraine shall
+                                                be considered. Holders of diplomatic or service passport shall be exempt from this requirement
+                                            </li>
+                                            <li>
+                                                A bank statement to confirm sufficient financial means for the period of intended stay in Ukraine
+                                                – for 90 days and return to the country of origin or transit to a third country or guaranty to
+                                                obtain sufficient financial resources in Ukraine. When multi-entry visa is requested, financial
+                                                sufficiency for the first planned visit to Ukraine shall be considered. Holders of diplomatic or
+                                                service passport shall be exempt from this requirement
+                                            </li>
+                                            <li>
+                                                2 color photos seized 35 mm x 45 mm- recent, passport-sized, resembling applicant’s travel document
+                                                photo.
+                                            </li>
+                                            <li>
+                                                A national passport, valid for at least three months after the expiry date of the requested visa
+                                                and it must contain at least 2 spare visa designated pages, must be issued no more than ten years
+                                                ago;
+                                            </li>
+                                            <li>Copy of the first page of the passport.</li>
+                                            <li>
+                                                A bank receipt confirming the payment of the consular fee + its copy (payments must be made through
+                                                any branch of ARAB BANK, by a directive of the consular employee of the Embassy after he checks
+                                                your application package).
+                                            </li>
+                                        </ol>
+                                        <p>
+                                            <span>Note:</span> In case of necessity the Embassy can require additional documents which confirm the
+                                            purpose of visit to Ukraine.
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="head">
+                                        <i class="fas fa-plane"></i>applicant arrival
+                                    </p>
+                                    <div class="text">
+                                        <p>
+                                            We arrange the date of arrival and prepare temporary apartments or hostel for applicant in advance.
+                                            <br>We will pick-up applicant from airport and transfer to temporary apartment
+                                            <br>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="head">
+                                        <i class="fas fa-dollar-sign"></i> tuition free
+                                    </p>
+                                    <div class="text">
+                                        <p>
+                                            After arriving to Ukraine, applicant will sign a contract with University, proceed tuition fee via
+                                            local bank and get all needed documents and information to start his/her classes.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-form">
+                            <p>You can check you invitation letter’s authenticity below</p>
+                            <div class="letter-number">
+                                <span>Invitation letter number:</span>
+                                <input type="text" placeholder="xxxxxx">
+                            </div>
+                            <div class="birthday-date">
+                                <span>Your birth date:</span>
+                                <input type="date" placeholder="">
+                            </div>
+                            <div class="button">
+                                <div class="btn-demo">
+                                    <a href="">Check</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="head-text head">
+                            <h4>Application Form</h4>
+                            <p>
+                                Fields marked with an
+                                <span class="clr-red">*</span> are required
+                            </p>
+                        </div>
+                        @*esas wey ondan ibaretdirki bunu yeni ele pis anlama sirqa ele qulaqda saxla yeni burda herden templeyti edenner yada frontcular form classi yazillar okeydirde classname form olsn ama ne bade div olmasn cunki divin metod postu falan yoxdu ona gore
+                            bunu bildinde yeni ?aha ikinci weyde sirha edilesi odurki frontcular adeten buttonu a href kimi yazllra buda sehgdi men baya duwundym olb yeni a evezine button olmalidi typetype submit yes) ona gore
+                            yavaw yavaw sira sira edek)aha
+                            step by step gedek) bilirsen ne edeceksen ?  esas birinci bilsen ne et input name dbdaki name e inputa elave required add edersen)niye? yazanda bow gondermesinde yeni iki wey bow gedecekde duzdu bizde weher falan sohbeti hele yoxdu ona yazmazsan onu sabah hell edecem duzu sabah baya iwim bar ama sabahda 3 gunu evezo kimi bawdan ayaqa hamsini etmeye caliwacam) tamam bidene sen yazda okey ?
+                            demeli bura geder her wey okeydirde? aha demeli indi biz iki wey vermeliyik birinci oduki forma methid vermeliyik get dimi post dumu burda postdu birde action vermeliyik o actuonda url action vereceyk o linke gore gedb controllerde olan funksiyani iwe salacaq okey ?aaaaaaha
+                        *@
+                        <form method="post" action="@Url.Action("AddForm","ApplicationForm" ,new { id = ViewBag.User.Id })" enctype="multipart/form-data" autocomplete="off" class="form appform-validation">
+                            <div class="input">
+                                <p>
+                                    First name
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="text" name="FirstName" value="@ViewBag.User.Name" required>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Last Name
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="text" name="LastName" value="@ViewBag.User.Surname" required>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Date of birth
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="date" name="Birthday" value="@(ViewBag.User.Birthday != null?ViewBag.User.Birthday:null ) " required>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Email
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="text" name="Email" value="@ViewBag.User.Email" required>
+                            </div>
+                            <div class="input">
+                                <p>
+
+                                    Mobile phone
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="text" name="MobilPhone" required placeholder="Country code (Mobile Operator Code) Phone number / Example +380 (50) 2460159">
+                            </div>
+                            <div class="input">
+                                <p>Instant messaging services registered with your mobile number</p>
+                                <div class="checkbox">
+                                    <input id="whatsapp" name="checkbox1" SocialNetworks value="Whatsapp" type="checkbox">
+                                    <label for="whatsapp">Whatsapp</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="viber" SocialNetworks name="checkbox2" value="Viber" type="checkbox">
+                                    <label for="viber">Viber</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="telegram" name="checkbox3" value="Telegram" SocialNetworks type="checkbox">
+                                    <label for="telegram">Telegram</label>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <p>Skype (if available)</p>
+                                <input type="text" name="Skype">
+                            </div>
+                            @* ============================================================
+                                   COUNTRIES API ---START
+                                =============================================================*@
+                            <div class="input">
+                                <p>
+                                    Country of Citizenship
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <select name="CountryCitizen" id="CountryCitizen">
+                                    <option value="">@(ViewBag.AppForm == null ? "Country" : ViewBag.AppForm.CountryCitizen)</option>
+                                </select>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Country of Living
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <select name="CountryLiving" id="CountryLiving">
+                                    <option value="1">@(ViewBag.AppForm == null ? "Country" : ViewBag.AppForm.CountryLiving)</option>
+                                </select>
+                            </div>
+
+                            <div class="input">
+                                <p>
+                                    City
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <select name="Cities" id="Cities">
+                                    <option value="1">@(ViewBag.AppForm == null ? "City" : ViewBag.AppForm.Cities)</option>
+                                </select>
+                            </div>
+
+                            @* ============================================================
+                                   COUNTRIES API ---END
+                                =============================================================*@
+
+                            <!--============================================================
+                               UNIVERSITY-FACULTY-COURSE API ---START
+                            =============================================================-->
+                            <div class="input">
+                                <p>
+                                    University
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <select name="UniversityId" id="Universities">
+                                    <option value="0">@(ViewBag.University == null ? "Country" : ViewBag.University.Name)</option>
+
+                                    @foreach (var item in ViewBag.Universities)
+                                    {
+
+                                        <option value="@item.Id">@item.Name</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Faculty
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <select id="Faculties">
+                                    <option value="@(ViewBag.Faculty!=null? ViewBag.Faculty.Id:0)">@(ViewBag.Faculty != null ? ViewBag.Faculty.Name : "Faculty")</option>
+                                </select>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Course
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <select name="CoursId" id="Courses">
+                                    <option value="">@(ViewBag.Course != null ? ViewBag.Course.Name : "Course")</option>
+                                </select>
+                            </div>
+
+                            <!--============================================================
+                               UNIVERSITY-FACULTY-COURSE API ---END
+                            =============================================================-->
+
+                            <div class="input">
+                                <p>
+                                    Address to ship an invitation letter
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="text" name="InvitationLetterAddress" value="@(ViewBag.User.Address != null?ViewBag.User.Address:null ) " required>
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Zip
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="text" name="ZipCode" value="@(ViewBag.User.ZipCode != null?ViewBag.User.ZipCode :null ) " required>
+                            </div>
+                            <div class="input">
+                                <p>
+
+                                    Degree you apply for
+                                    <span class="clr-red">*</span>
+                                </p>
+                                @foreach (Degree item in ViewBag.degree)
+                                {
+                                    <div class="form-check">
+                                        <input name="Degree" id="rd-1" value="@item.Id" type="radio">
+                                        <label for="rd-1">@item.Name</label>
+                                    </div>
+                                }
+                               
+                               
+                            </div>
+                            <div class="input">
+                                <p>
+                                    Language that you want to study in
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <div class="form-check">
+                                    <input name="Language" id="rd-4" value="English" type="radio">
+                                    <label for="rd-4">English</label>
+                                </div>
+                                <div class="form-check">
+                                    <input name="Language" id="rd-5" value="Russian" type="radio">
+                                    <label for="rd-5">Russian</label>
+                                </div>
+                            </div>
+                            <div class="input">
+                                @if (Session["selectError"] != null)
+                                {
+                                    <p>You must select your file</p>
+                                }
+                                @if (Session["typeerror"] != null)
+                                {
+                                    <p>Your file must be word or pdf</p>
+                                }
+                                @if (Session["sizeerror"] != null)
+                                {
+                                    <p>Your file size must be max 5mb</p>
+                                }
+                                <p>
+                                    Upload Passport:
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="file" name="passportFile" id="file" required />
+
+                            </div>
+                            <div class="input">
+
+                                <p>
+                                    School Certificate:
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="file" name="certificateFile" id="file" required />
+
+                            </div>
+                            <div class="input">
+
+                                <p>
+                                    Course you are applying for
+                                    <span class="clr-red">*</span>
+                                </p>
+                                <input type="text">
+                            </div>
+                            <button type="submit" class="btn-demo" style="    background-color: transparent;border: none;color: white;"><a> Submit</a></button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

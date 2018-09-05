@@ -1,0 +1,203 @@
+﻿@using ApplyUkraine.Models;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header class="head">
+    <div class="container">
+        <div class="image">
+            <nav class="navbars">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="logo">
+                            <a href="index.html">
+                                <div class="image">
+                                    <img src="~/Public/images/apply-ukraine-logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-9 d-flex">
+                        <div class="btn-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu">
+                            <ul class="navs-menu">
+                                <li class="navs-item active">
+                                    <a href="@Url.Action("index","home")" class="navs-a">Home</a>
+                                </li>
+                                <li class="navs-item">
+                                    <a class="navs-a">
+                                        About Us
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a href="@Url.Action("index","aboutUs")">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","services")">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","faqs")">Faqs</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","blog")">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="#" class="navs-a">
+                                        Ukraine universiyies
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        @foreach (University item in ViewBag.Universities)
+                                        {
+                                            <li>
+                                                <a href="@Url.Action("index","universities",new { id = item.Id })">@item.Name</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="@Url.Action("index","contact")" class="navs-a">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <a href="@Url.Action("index","applicationform")">
+                                <span>Application form</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="item">
+                <div class="text-head">
+                    <h1>BLOG</h1>
+                </div>
+            </div>
+            <div class="content-page">
+                <ul class="list">
+                    <li>
+                        <a href="@Url.Action("index","home")">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("index","blog")">Blog</a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("index","blogapply")">How to apply Ukraine university?</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="blog">
+    <div class="container">
+        <div class="blog-box">
+            <div class="row">
+                <div class="col-md-9 col-sm-12">
+                    <div class="text">
+                        <div class="header">
+                            <h2>How to apply Ukraine university?</h2>
+                        </div>
+                        <div class="comment">
+                            <ul class="list">
+                                <li>
+                                    <span>Posted by</span>
+                                    <a href="blog-apply-ukraine.html">Apply ukraine</a>
+                                </li>
+                                <li>
+                                    <span>Categories</span>
+                                    <a href="@Url.Action("index","blog")">Blog</a>
+                                </li>
+                                <li>
+                                    <span>Date</span>
+                                    <a href="">JANUARY 26, 2018</a>
+                                </li>
+                                <li>
+                                    <span>Comments</span>
+                                    <a href="">0 comment</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <a href="">
+                            <img src="~/Public/images/aRgpqHnB7HA.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Have you decided to continue your education in of Ukraine best Universities? The State Universities of this
+                            country are well known and recognized almost in every country all over the world. You have the real opportunity
+                            to get quality education in one of the most beautiful and interesting countries of Europe. Here in Ukraine
+                            you will become a professional of selected area and get the best student life experience.
+                        </p>
+                        <p>You don’t need to pass Toefl / IELTS test to be able to apply.</p>
+                        <p>We only need your passport and secondary school certificate copies translated in Ukrainian language.</p>
+                        <p>Just contact us for professional consulting services and assistance in application process.</p>
+                        <div class="social-content">
+                            <p>Share:</p>
+                            <ul class="list">
+                                <li>
+                                    <a href="https://www.facebook.com/studyinukrainearabic">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/apply_ukraine">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/applyukraine/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="apply-ukraine">
+                        <div class="images">
+                            <img src="~/Public/images/avatar.png" alt="">
+                            <div class="apply">
+                                <a href="">Apply Ukraine</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-leave">
+                        <h3>LEAVE A REPLY</h3>
+                        <p>Your email address will not be published. Required fields are marked *</p>
+                    </div>
+                    <div class="input-form">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea name="" cols="45" rows="8" placeholder="Comment *"></textarea>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" placeholder="Name *">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" placeholder="Email *">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" placeholder="Website *">
+                            </div>
+                        </div>
+                        <div class="btn-demo">
+                            <a href="">Post comment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,410 @@
+﻿@using ApplyUkraine.Models;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header class="head">
+    <div class="container">
+        <div class="image">
+            <nav class="navbars">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="logo">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="~/public/images/apply-ukraine-logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-9 d-flex">
+                        <div class="btn-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu">
+                            <ul class="navs-menu">
+                                <li class="navs-item active">
+                                    <a href="@Url.Action("index","home")" class="navs-a">Home</a>
+                                </li>
+                                <li class="navs-item">
+                                    <a class="navs-a">
+                                        About Us
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a href="@Url.Action("index","aboutUs")">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","services")">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","faqs")">Faqs</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","blog")">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="#" class="navs-a">
+                                        Ukraine universiyies
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        @foreach (University item in ViewBag.Universities)
+                                        {
+                                            <li>
+                                                <a href="@Url.Action("index","universities",new { id = item.Id })">@item.Name</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="@Url.Action("index","contact")" class="navs-a">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <a href="@Url.Action("index","applicationform")">
+                                <span>Application form</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="item">
+                <div class="text-head">
+                    <h1>@ViewBag.University.Name</h1>
+                </div>
+            </div>
+            <div class="content-page">
+                <ul class="list">
+                    <li>
+                        <a href="@Url.Action("index","home")">Home</a>
+                    </li>
+                    @*<li class="active">
+                        <a href="@Url.Action("index","home")">Ukraine Universities</a>
+                    </li>*@
+                    <li class="active">
+                        <a href="@Url.Action("index","universities")">@ViewBag.University.Name</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="KKN-univesity">
+    <div class="container">
+        <div class="header-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <img src="~/Public/images/@ViewBag.University.Logo" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="count">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="head">
+                                        <i class="fas fa-signal"></i>
+                                        <p>382 in QS World University Ranking 2017 year</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="head">
+                                        <i class="fas fa-trophy"></i>
+                                        <p>1 of top 3 in Ukraine Universities Ranking</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list">
+                                <li class="percentage">
+                                    <p>15000</p>
+                                    <span>STUDENTS</span>
+                                </li>
+                                <li class="percentage brd">
+                                    <p>2000</p>
+                                    <span>TEACHERS</span>
+                                </li>
+                                <li class="percentage">
+                                    <p>337</p>
+                                    <span>PROFESSORS</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-box">
+            <div class="container">
+                <div class="head-text">
+                    <h4>@ViewBag.Description.Header</h4>
+                    <p>@Html.Raw(ViewBag.Description.Text)</p>
+                </div>
+                <div class="content">
+                    @{ int i = 0;}
+                    @foreach (Image item in ViewBag.UniversityAbouts)
+                    {
+
+                    <div class="row @(i%2==1?"colum-reverse-university":"")" style="@(i%2==1?"flex-direction:row-reverse":"")" >
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="~/Public/images/@item.Name" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="text">
+                                    <div class="head-text">
+                                        <h5>@Html.Raw(item.About.Header)</h5>
+                                    </div>
+                                    <p>
+                                        @Html.Raw(item.About.Text)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="display:none">
+                        @(i++)
+                    </p>
+                  
+                    }
+                    
+                    @*<div class="row colum-reverse-university">
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="text">
+                                    <p>
+                                        Now, the university is rated as the one of the best classical institutions among
+                                        the universities in Ukraine, and is a very well-known in different countries
+                                        around the world. Most of the famous educators, scholars and researchers are
+                                        associated in the KHARKIV University, such as Kostomarov, Beketov and many more.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="images/V.N.-Karazin-Kharkiv-National-University.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="images/V.N.-Karazin-Kharkiv-National-University-6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="text">
+                                    <p>
+                                        Both foreign and local students aim to study in V. N. KARAZIN KHARKIV National University
+                                        as all courses are available such as, biological sciences, business economics,
+                                        social sciences, physical sciences, clinical health, arts & humanities and engineering
+                                        technology.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row colum-reverse-university">
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="text">
+                                    <div class="head-text">
+                                        <h5>Why Most Students Choose to Study in KHARKIV University</h5>
+                                    </div>
+                                    <p>
+                                        Since the foundation of the University, more than 130K students have graduated from
+                                        the University. Almost sixty graduates are academicians and active members of
+                                        UNAS or Ukrainian National Academy of Science. Furthermore, the activities and
+                                        programs of the National University made V. N. KARAIN KHARKIV in a major cultural,
+                                        industrial and scientific center.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="images/V.N.-Karazin-Kharkiv-National-University-5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="images/V.N.-Karazin-Kharkiv-National-University-4-1024x683.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="text">
+                                    <p>
+                                        The truth is that, every year the number of students in this University increases
+                                        and causing the university to employ many research staff, full professors, doctor
+                                        of sciences, associate professors and faculties. Most of the international students
+                                        are encourage to study in KHARKIV University, not only because of the popularity
+                                        and great historical background of the institution, but also due to the fact,
+                                        that the methods and system of teaching that are being used are modern.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+            </div>
+        </div>
+        <div class="table-content">
+            <div class="container">
+                <div class="head-text">
+                    <h3>GENERAL MEDICINE FEE STRUCTURE</h3>
+                </div>
+                <div class="table-medicine">
+                    <table class="recent-table">
+                        <thead class="table-head">
+                            <tr class="table-row">
+                                <th class="first-col">Course</th>
+                                <th>Language</th>
+                                <th>Duration</th>
+                                <th>First year</th>
+                                <th>Next year</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body
+                               @foreach(CoursToUniversity item in ViewBag.Course)
+                               {
+                                <tr class="table-row odd">
+                                <td>@item.Cours.Name</td>
+                                <td>@item.Cours.Language</td>
+                                <td>@item.Cours.Duration</td>
+                                <td>@item.Cours.FirstYear</td>
+                                <td>@item.Cours.NextYear</td>
+                            </tr>
+                               }
+                            
+                    
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="checkbox-content">
+            <div class="container">
+                <div class="head-text">
+                    <h3>TUITION FEES</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="input">
+                                    <p>SEARCH COURSE:</p>
+                                    <input type="text" id="myInput"  placeholder="SEARCH COURSE">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="input">
+                                    <p>DEGREE:</p>
+                                    <div class="checkbox">
+                                        <input name="" value="BACHELOR" class="checkbox-value" type="checkbox">
+                                        <label for="">BACHELOR</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input name="" value="MASTER" class="checkbox-value" type="checkbox">
+                                        <label for="">MASTER</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="input">
+                                    <p>LANGUAGE:</p>
+                                    <div class="checkbox">
+                                        <input name="" value="ENGLISH" class="checkbox-value" type="checkbox">
+                                        <label for="">ENGLISH</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input name="" value="RUSSIAN" class="checkbox-value" type="checkbox">
+                                        <label for="">RUSSIAN</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="btn-demo reset-button" style="cursor:pointer" >
+                                    <a style="color:white;">
+                                        <i class="fas fa-filter"></i> clear filters
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-content p-t-5 p-b-5">
+            <div class="container">
+                <div class="table-medicine">
+                    <table class="recent-table" id="tblID">
+                        <thead class="table-head">
+                            <tr class="table-row bg">
+                                <th class="first-col">
+                                    Course
+                                    <i class="fas fa-caret-down"></i>
+                                </th>
+                                <th>DEGREE</th>
+                                <th>LANGUAGE</th>
+                                <th>DURATION</th>
+                                <th>
+                                    First year
+                                    <i class="fas fa-caret-down"></i>
+                                </th>
+                                <th>
+                                    Next year
+                                    <i class="fas fa-caret-down"></i>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body table-body-filter" id="myUL">
+                            <tr class="table-row odd">
+                                <td>BIOLOGY</td>
+                                <td>BACHELOR</td>
+                                <td>RUSSIAN</td>
+                                <td>4 YEARS</td>
+                                <td>3560 USD</td>
+                                <td>2300 USD</td>
+                            </tr>
+                            <tr class="table-row">
+                                <td>INTERNATIONAL ECONOMIC RELATIONS</td>
+                                <td>BACHELOR</td>
+                                <td>RUSSIAN</td>
+                                <td>4 YEARS</td>
+                                <td>3860 USD</td>
+                                <td>2600 USD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

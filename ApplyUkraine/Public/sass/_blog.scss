@@ -1,0 +1,94 @@
+.head .container .image .item.blog-item{
+    background-image: url("../images/girl2-1.jpg");
+}
+.blog{
+    font-family: 'Comfortaa';
+    .blog-box{
+        background-color: white;
+        padding: 5% 3% 3% 3%;
+        .image{
+            a{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .text{
+            padding-top: 5%;
+            .header{
+                display: inline-block;
+                color: $clr_yellow;
+                padding-right: 3%;
+                h1{
+                    font-size: 72px;
+                    margin: 0;
+                    font-weight: bold;
+                }
+                span{
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+                
+            }
+            .comment{
+                display: inline-block;
+                vertical-align: top;
+                border-left: 1px solid $clr_l_grey;
+                margin-top: 1%;
+                padding-left: 4%;
+                h2{
+                    a{
+                        vertical-align: top;
+                        color: $clr_black;
+                        font-size: 30px;
+                        font-weight: 700;
+                        transition: 0.3s ease-in;
+                    }
+                    &:hover{
+                        a{
+                            color: $clr_yellow;
+                        }
+                    }
+                }
+                .list{
+                    margin: 0;
+                    li{
+                        span{
+                            display: block;
+                            color: $clr_light_grey;
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                        a{
+                           display: block;
+                           color: $clr_grey;
+                           font-weight: 600;
+                           font-size: 14px;
+                           text-transform: uppercase;
+                        }
+                    }
+                    li:nth-child(1){
+                        padding-right: 5%;
+                    }
+                    li:nth-child(2){
+                        border-right: 1px solid $clr_l_grey;
+                        border-left: 1px solid $clr_l_grey;
+                        padding: 0 5%;
+                    }
+                    li:nth-child(3){
+                        padding-left: 5%;
+                    }
+                    
+                }
+            }
+        }
+        .description{
+            padding-top: 5%;
+            color :$clr_light_black;
+            font-size: 16px;
+        }
+        .btn-demo{
+            margin-bottom: 5%;
+        }
+    }
+}

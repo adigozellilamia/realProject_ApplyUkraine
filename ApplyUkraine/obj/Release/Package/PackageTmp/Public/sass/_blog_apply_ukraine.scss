@@ -1,0 +1,170 @@
+.blog{
+    font-family: 'Comfortaa';
+    .blog-box{
+        background-color: white;
+        padding: 5% 3% 3% 3%;
+        .image{
+            padding-top: 5%;
+            width: 85%;
+            margin: auto;
+            a{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .text{
+            .header{
+                display: inline-block;
+                color: $clr_yellow;
+                padding-right: 3%;
+                h1{
+                    font-size: 72px;
+                    margin: 0;
+                    font-weight: bold;
+                }
+                span{
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+                
+            }
+            .comment{
+                display: block;
+                vertical-align: top;
+                border-left: none;
+                margin-top: 1%;
+                padding-left: 0;
+                h2{
+                    a{
+                        vertical-align: top;
+                        color: $clr_black;
+                        font-size: 30px;
+                        font-weight: 700;
+                        transition: 0.3s ease-in;
+                    }
+                    &:hover{
+                        a{
+                            color: $clr_yellow;
+                        }
+                    }
+                }
+                .list{
+                    margin: 0;
+                    li{
+                        span{
+                            display: block;
+                            color: $clr_light_grey;
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                        a{
+                           display: block;
+                           color: $clr_grey;
+                           font-weight: 600;
+                           font-size: 14px;
+                           text-transform: uppercase;
+                        }
+                    }
+                    li:nth-child(1){
+                        padding-right: 5%;
+                    }
+                    li:nth-child(2){
+                        border-right: 1px solid $clr_l_grey;
+                        border-left: 1px solid $clr_l_grey;
+                        padding: 0 5%;
+                    }
+                    li:nth-child(3){
+                        padding:0 5%;
+                    }
+                    li:nth-child(4){
+                        padding-left: 5%;
+                        border-left: 1px solid $clr_l_grey;
+                    }
+                    
+                }
+            }
+        }
+        .description{
+            padding-top: 5%;
+            color :$clr_light_black;
+            p{
+                // font-size: 18px;
+            }
+
+            .social-content{
+                padding: 10% 0 5% 0;
+                text-align: end;
+                p{
+                    display: inline-block;
+                    padding-right: 3%;
+                }
+                ul{
+                    display: inline-block;
+                }
+            }
+        }
+        .apply-ukraine{
+            border: 1px solid $clr_l_grey;
+            padding: 5% 5% 10% 5%;
+            .images{
+                img{
+                    border-radius: 100%;
+                
+                }
+                .apply{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin: 12px 30px 2px;
+                    
+                    a{
+                        font-weight: 700;
+                        font-size: 15px;
+                        color: $clr_black;
+                        
+                    }
+                }
+            }
+        }
+        .comment-leave{
+            padding: 5% 0 8%;
+            h3{
+                font-size: 20px;
+                font-weight: 600;
+                padding-bottom: 2%;
+            }
+            p{
+                color: $clr_p;
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: "";
+                    bottom: -25px;
+                    left: 0;
+                    width: 5%;
+                    height: 1px;
+                    background-color: black;
+                }
+            }
+        }
+        .input-form{
+            textarea, input{
+                border: 1px solid #e5e5e5;
+                padding: 10px;
+                font-size: 16px;
+                width: 100%;
+                &:focus{
+                    border-color: #ffb606;
+                    outline: none;
+                }
+            }
+            input{
+                margin-top: 10%;
+            }
+            .btn-demo{
+                margin: 5% 0;
+            }
+        }
+        
+    }
+}

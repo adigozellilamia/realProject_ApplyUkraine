@@ -1,0 +1,2891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp-eu.site4now.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="App_Browsers/qt.browser">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/js/dashboard.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/js/layout-builder.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-6.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/bg/bg-7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/blog/blog1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/blog/blog2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/blog/blog3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/blog/blog4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/blog/blog5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/client-logos/logo1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/client-logos/logo2.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/client-logos/logo3.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/client-logos/logo4.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/client-logos/logo5.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/envato/screen1.jpg">
+      <publishTime>07/22/2018 15:25:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/envato/screen2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/error/bg1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/error/bg2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/error/bg3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/error/bg4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/error/bg5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/error/bg6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/css.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/csv.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/doc.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/html.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/javascript.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/jpg.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/mp4.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/pdf.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/xml.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/files/zip.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/icons/exchange.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/icons/logout.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/icons/question.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/icons/warning.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo-1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo-2.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo-3.png">
+      <publishTime>07/22/2018 15:25:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo-4.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo_client_color.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo_client_white.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo_invoice_dark.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/logos/logo_invoice_white.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/misc/notification_bg.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/misc/quick_actions_bg.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/misc/user_profile_bg.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product10.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product11.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product8.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/products/product9.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_10.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_11.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_12.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_13.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_14.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_8.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/100_9.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_10.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_11.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_12.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_13.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_14.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_8.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/300_9.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/user1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/user2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/user3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/user4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/app/media/img/users/user5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/demo/demo8/base/scripts.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/demo/demo8/base/style.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/demo/demo8/base/style.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/demo/demo8/media/img/logo/favicon.ico">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/demo/demo8/media/img/logo/logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/demo/demo8/media/img/logo/logo_inverse.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/demo/demo8/media/img/logo/logo_mini.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/snippets/apps/mail/mail.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/snippets/custom/apps/mail/mail.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/snippets/custom/pages/user/login.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/snippets/custom/pages/user/login6.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/flaticon/Flaticon.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/flaticon/Flaticon.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/flaticon/Flaticon.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/flaticon/Flaticon.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.eot">
+      <publishTime>07/22/2018 15:27:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/line-awesome/line-awesome.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/line-awesome/line-awesome.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/line-awesome/line-awesome.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/line-awesome/line-awesome.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/line-awesome/line-awesome.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/socicon/socicon.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/socicon/socicon.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/socicon/socicon.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/socicon/socicon.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/summernote/summernote.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/summernote/summernote.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/fonts/summernote/summernote.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/images/ion-rangeslider/sprite-skin-flat.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/images/jstree/32px.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/images/jstree/40px.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/images/jstree/throbber.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/images/owl.carousel/ajax-loader.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/images/owl.carousel/owl.video.play.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/vendors.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/vendors.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/base/vendors.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/datatables/datatables.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/datatables/datatables.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/datatables/datatables.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/flot/flot.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/gmaps/gmaps.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/images/ui-icons_444444_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/images/ui-icons_555555_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/images/ui-icons_777620_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/images/ui-icons_777777_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/images/ui-icons_cc0000_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/images/ui-icons_ffffff_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jqvmap/jqvmap.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jqvmap/jqvmap.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/assets/vendors/custom/jqvmap/jqvmap.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap-theme.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap-theme.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap-theme.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap-theme.min.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/css/bootstrap.min.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/js/bootstrap.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/js/bootstrap.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/boostrap-files/js/npm.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/animate.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/calendar.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/colour-scheme/color-blue.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/colour-scheme/color-brown.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/colour-scheme/color-green.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/colour-scheme/color-orange.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/colour-scheme/color-purple.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/colour-scheme/color-red.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/component.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/contact.form.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/owl.carousel.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/owl.theme.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/respons.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/slider.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/stickup.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/style.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/css/switcher.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/lib/jquery-1.9.0.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/lib/jquery-latest.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/lib/jquery.mousewheel-3.0.6.pack.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/blank.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/fancybox_loading%402x.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/fancybox_loading.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/fancybox_overlay.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/fancybox_sprite%402x.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/fancybox_sprite.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/helpers/jquery.fancybox-buttons.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/helpers/jquery.fancybox-buttons.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/helpers/jquery.fancybox-media.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/helpers/jquery.fancybox-thumbs.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/helpers/jquery.fancybox-thumbs.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/jquery.fancybox.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/jquery.fancybox.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fancybox/source/jquery.fancybox.pack.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/css/font-awesome.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/css/font-awesome.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/animated.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/bordered-pulled.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/core.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/fixed-width.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/font-awesome.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/icons.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/larger.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/list.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/mixins.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/path.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/rotated-flipped.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/screen-reader.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/stacked.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/less/variables.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/font-awesome.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_animated.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_core.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_fixed-width.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_icons.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_larger.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_list.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_mixins.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_path.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_screen-reader.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_stacked.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/fonts/font-awesome/scss/_variables.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/404.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/arrow.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/banner.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/blog/post-1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/blog_l.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/client-logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/close-small.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/close-white.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/close.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/comment_foto.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/contact_l.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicon-female/apple-touch-icon-114x114.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicon-female/apple-touch-icon-144x144.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicon-female/apple-touch-icon-72x72.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicon-female/apple-touch-icon.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicon-female/favicon.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicons/apple-touch-icon-114x114.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicons/apple-touch-icon-144x144.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicons/apple-touch-icon-72x72.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicons/apple-touch-icon.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/favicons/favicon.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/img-100x100.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/img-195x195.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/img-716x536.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/img70x70.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/loading-circle.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/loading.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/man-home.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/marker-color-blue.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/marker-color-brown.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/marker-color-green.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/marker-color-orange.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/marker-color-purple.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/marker-color-red.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/blog.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/blog.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/contact.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/contact.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/portfolio.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/portfolio.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/profile.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/profile.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/profile_female.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/profile_female.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/resume.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/menu/resume.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/photo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/photo_female.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/portfolio/p-1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/portfolio/p_b-1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/portfolio_l.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/profile_female_l.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/profile_l.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/resume_l.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/search-grey.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/search.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/img/woman-home.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/contact_scripts.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery-1.11.2.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery-1.11.2.min.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.appear.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.calendario.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.cookie.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.countTo.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.flexslider-min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.inview.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.knob.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.mixitup.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/jquery.ratyli.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/menu.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/modernizr.custom.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/modernizr.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/owl.carousel.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/portfolio_scripts.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/prefixfree.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/scripts.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/stickUp.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/js/TweenMax.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/details/assets/php/contact.php">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>07/22/2018 15:23:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/chart.js/Chart.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/chart.js/Chart.bundle.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/chart.js/Chart.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/chart.js/Chart.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/datatables/dataTables.bootstrap4.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/datatables/dataTables.bootstrap4.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/datatables/jquery.dataTables.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/css/font-awesome.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/css/font-awesome.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/animated.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/bordered-pulled.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/core.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/fixed-width.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/font-awesome.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/icons.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/larger.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/list.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/mixins.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/path.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/rotated-flipped.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/screen-reader.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/stacked.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/less/variables.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/font-awesome.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_animated.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_core.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_fixed-width.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_icons.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_larger.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_list.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_mixins.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_path.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_screen-reader.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_stacked.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/font-awesome/scss/_variables.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/jquery-easing/jquery.easing.compatibility.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/jquery-easing/jquery.easing.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/jquery-easing/jquery.easing.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/jquery/jquery.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Public/vendor/jquery/jquery.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Abouts/Create.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Abouts/Delete.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Abouts/Details.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Abouts/Edit.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Abouts/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ApplicationForms/Details.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ApplicationForms/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Cours/Create.cshtml">
+      <publishTime>08/24/2018 14:31:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Cours/Delete.cshtml">
+      <publishTime>08/24/2018 14:31:10</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Cours/Details.cshtml">
+      <publishTime>08/24/2018 14:31:15</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Cours/Edit.cshtml">
+      <publishTime>08/24/2018 14:31:20</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Cours/Index.cshtml">
+      <publishTime>08/24/2018 14:31:24</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CoursToUniversities/Create.cshtml">
+      <publishTime>08/24/2018 14:33:24</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CoursToUniversities/Delete.cshtml">
+      <publishTime>08/24/2018 14:42:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CoursToUniversities/Details.cshtml">
+      <publishTime>08/24/2018 14:42:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CoursToUniversities/Edit.cshtml">
+      <publishTime>08/24/2018 14:42:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/CoursToUniversities/Index.cshtml">
+      <publishTime>08/24/2018 14:42:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Dashboard/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Descriptions/Create.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Descriptions/Delete.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Descriptions/Details.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Descriptions/Edit.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Descriptions/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Faculties/Create.cshtml">
+      <publishTime>08/24/2018 14:33:27</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Faculties/Delete.cshtml">
+      <publishTime>08/24/2018 14:32:04</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Faculties/Details.cshtml">
+      <publishTime>08/24/2018 14:32:07</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Faculties/Edit.cshtml">
+      <publishTime>08/24/2018 14:32:13</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Faculties/Index.cshtml">
+      <publishTime>08/24/2018 14:32:37</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Images/Create.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Images/Delete.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Images/Details.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Images/Edit.cshtml">
+      <publishTime>08/24/2018 14:19:05</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Images/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_Layout.cshtml">
+      <publishTime>08/24/2018 14:39:27</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Universities/Create.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Universities/Delete.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Universities/Details.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Universities/Edit.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Universities/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Users/Create.cshtml">
+      <publishTime>08/24/2018 16:05:26</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Users/Delete.cshtml">
+      <publishTime>08/24/2018 16:05:45</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Users/Details.cshtml">
+      <publishTime>08/24/2018 16:05:55</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Users/Edit.cshtml">
+      <publishTime>08/24/2018 16:06:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Users/Index.cshtml">
+      <publishTime>08/24/2018 16:12:02</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/ApplyUkraine.dll">
+      <publishTime>08/26/2018 16:03:13</publishTime>
+    </File>
+    <File Include="bin/ApplyUkraine.pdb">
+      <publishTime>08/26/2018 16:03:13</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.UI.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.InfoCard.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.InfoCard.UI.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Common.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.ServiceProvider.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth2.AuthorizationServer.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth2.Client.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth2.Client.UI.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth2.ClientAuthorization.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth2.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth2.ResourceServer.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.Provider.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.Provider.UI.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.UI.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.UI.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenIdInfoCard.UI.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenIdOAuth.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Facebook.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Mono.Math.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Org.Mentalis.Security.Cryptography.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>07/22/2018 15:16:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>07/22/2018 15:16:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>07/22/2018 15:16:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Rotativa.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Stripe.net.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Models/Model1.edmx.diagram">
+      <publishTime>08/24/2018 16:09:27</publishTime>
+    </File>
+    <File Include="Public/404css/404.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/js/dashboard.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/js/layout-builder.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-6.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/bg/bg-7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/blog/blog1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/blog/blog2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/blog/blog3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/blog/blog4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/blog/blog5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/client-logos/logo1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/client-logos/logo2.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/client-logos/logo3.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/client-logos/logo4.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/client-logos/logo5.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/envato/screen1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/envato/screen2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/error/bg1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/error/bg2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/error/bg3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/error/bg4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/error/bg5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/error/bg6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/css.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/csv.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/doc.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/html.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/javascript.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/jpg.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/mp4.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/pdf.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/xml.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/files/zip.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/icons/exchange.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/icons/logout.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/icons/question.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/icons/warning.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo-1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo-2.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo-3.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo-4.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo_client_color.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo_client_white.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo_invoice_dark.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/logos/logo_invoice_white.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/misc/notification_bg.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/misc/quick_actions_bg.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/misc/user_profile_bg.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product10.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product11.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product8.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/products/product9.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_10.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_11.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_12.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_13.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_14.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_8.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/100_9.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_10.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_11.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_12.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_13.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_14.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_7.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_8.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/300_9.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/user1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/user2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/user3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/user4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/app/media/img/users/user5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/base/scriptbundleaccount.js">
+      <publishTime>08/26/2018 12:14:05</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/base/scripts.bundle.js">
+      <publishTime>08/26/2018 12:02:30</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/base/style.bundle.css">
+      <publishTime>08/26/2018 11:27:51</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/base/style.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/base/stylebundleaccount.css">
+      <publishTime>08/26/2018 12:08:25</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/media/img/logo/favicon.ico">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/media/img/logo/logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/media/img/logo/logo_inverse.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/demo/demo8/media/img/logo/logo_mini.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/snippets/apps/mail/mail.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/snippets/custom/apps/mail/mail.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/snippets/custom/pages/user/login.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/snippets/custom/pages/user/login6.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/flaticon/Flaticon.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/flaticon/Flaticon.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/flaticon/Flaticon.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/flaticon/Flaticon.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-brands-400.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-regular-400.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/fontawesome5/fa-solid-900.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/line-awesome/line-awesome.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/line-awesome/line-awesome.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/line-awesome/line-awesome.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/line-awesome/line-awesome.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/line-awesome/line-awesome.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/socicon/socicon.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/socicon/socicon.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/socicon/socicon.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/socicon/socicon.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/summernote/summernote.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/summernote/summernote.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/fonts/summernote/summernote.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/images/ion-rangeslider/sprite-skin-flat.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/images/jstree/32px.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/images/jstree/40px.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/images/jstree/throbber.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/images/owl.carousel/ajax-loader.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/images/owl.carousel/owl.video.play.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/vendors.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/vendors.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/base/vendors.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/datatables/datatables.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/datatables/datatables.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/datatables/datatables.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/flot/flot.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/fullcalendar/fullcalendar.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/gmaps/gmaps.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/images/ui-icons_444444_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/images/ui-icons_555555_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/images/ui-icons_777620_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/images/ui-icons_777777_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/images/ui-icons_cc0000_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/images/ui-icons_ffffff_256x240.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jquery-ui/jquery-ui.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jqvmap/jqvmap.bundle.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jqvmap/jqvmap.bundle.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/assets/vendors/custom/jqvmap/jqvmap.bundle.rtl.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/CountriesApi.js">
+      <publishTime>08/20/2018 16:32:05</publishTime>
+    </File>
+    <File Include="Public/images/24-7-Helpline-Icon.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/admission-2018banner2.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/airport-pick-up.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/apply-ukraine-logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/aRgpqHnB7HA.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/avatar.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/bg_icon.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/girl.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/girl2-1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/guaranteed-admis-1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/health-certificate.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/insurance.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/invitation-logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/Invitation_2-512-1.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/kallyas-education.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-AVIATION-INSTITUTE-1024x601.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-AVIATION-INSTITUTE-2-1024x695.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-AVIATION-INSTITUTE-3.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/Kharkiv-Aviation-Institute-Logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/kharkiv-national-medical-university-1024x515.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/Kharkiv-National-Medical-University-Logo.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/kharkiv-national-medical-university-students-1024x678.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-NATIONAL-PHARMACY-UNIVERSITY.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-NATIONAL-PHARMACY-UNIVERSITY2 %281%29.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-NATIONAL-PHARMACY-UNIVERSITY2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-NATIONAL-PHARMACY-UNIVERSITY3.gif">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-NATIONAL-PHARMACY-UNIVERSITY4.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/KHARKIV-NATIONAL-PHARMACY-UNIVERSITY5.jpeg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/kharkiv-national-university-of-economics-logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/kharkiv-university-of-economics-2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/kharkiv-university-of-economics.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/Logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/mbbs-in-ukraine.jpg">
+      <publishTime>07/22/2018 15:14:58</publishTime>
+    </File>
+    <File Include="Public/images/national-pharmacy-university-logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/national-technical-university-of-ukraine %281%29.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/national-technical-university-of-ukraine-7.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/National-Technical-University-of-Ukraine-Logo-160x155.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/National-Technical-University-of-Ukraine-Logo.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/national-technical-university-of-ukraine.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/No-toefl-ielts.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/NOSTRIFICATION.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/NTU-1.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/simon-kuznets-kharkiv-national-university-of-economics-2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/simon-kuznets-kharkiv-national-university-of-economics.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/student-support.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/students-in-class.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/temporary-registration-1-e1528414669921.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/translation-e1528413909442.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/ukrainian-girl-with-flag.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/V.N.-Karazin-Kharkiv-National-University-2.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/V.N.-Karazin-Kharkiv-National-University-4-1024x683.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/V.N.-Karazin-Kharkiv-National-University-5.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/V.N.-Karazin-Kharkiv-National-University-6.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/V.N.-Karazin-Kharkiv-National-University-Logo.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/images/V.N.-Karazin-Kharkiv-National-University.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_about-us.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_application_form.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_blog.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_blog_apply_ukraine.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_contact.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_faqs.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_home.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_index.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_KA-institute.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_KNE-university.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_KNM-university.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_media-query.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_NTU_university.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_our-services.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_PN-university.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/sass/_V_N_KKN-univesity.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/scripts/ForgotPassword.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/scripts/main.js">
+      <publishTime>08/26/2018 12:41:31</publishTime>
+    </File>
+    <File Include="Public/scripts/plugins.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/scripts/vendor.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/styles/main.css">
+      <publishTime>08/26/2018 16:18:03</publishTime>
+    </File>
+    <File Include="Public/styles/vendor.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/Universities.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/css/main.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/css/util.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/css/font-awesome.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/HELP-US-OUT.txt">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/animated.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/bordered-pulled.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/core.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/fixed-width.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/font-awesome.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/icons.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/larger.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/list.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/mixins.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/path.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/rotated-flipped.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/screen-reader.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/stacked.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/less/variables.less">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/font-awesome.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_animated.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_core.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_fixed-width.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_icons.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_larger.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_list.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_mixins.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_path.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_screen-reader.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_stacked.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/font-awesome-4.7.0/scss/_variables.scss">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-Black.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-BlackItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-Bold.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-BoldItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-ExtraBold.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-ExtraLight.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-ExtraLightItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-Italic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-Light.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-LightItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-Medium.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-MediumItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-Regular.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-SemiBold.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-SemiBoldItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-Thin.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/Montserrat-ThinItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/montserrat/OFL.txt">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-Black.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-BlackItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-Bold.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-BoldItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-ExtraBold.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-ExtraBoldItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-ExtraLight.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-ExtraLightItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-Italic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-Light.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-LightItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-Medium.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-MediumItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-Regular.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-SemiBold.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-SemiBoldItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-Thin.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/fonts/poppins/Poppins-ThinItalic.ttf">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/images/bg-01.jpg">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/images/icons/favicon.ico">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/images/icons/icon-google.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/images/icons/map-marker.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/images/icons/symbol-01.png">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/js/main.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/animate/animate.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/animsition/css/animsition.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/animsition/css/animsition.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/animsition/js/animsition.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/animsition/js/animsition.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/js/popper.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/js/popper.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/bootstrap/js/tooltip.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/countdowntime/countdowntime.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/css-hamburgers/hamburgers.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/css-hamburgers/hamburgers.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/daterangepicker/daterangepicker.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/daterangepicker/daterangepicker.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/daterangepicker/moment.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/daterangepicker/moment.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/jquery/jquery-3.2.1.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/perfect-scrollbar/perfect-scrollbar.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/perfect-scrollbar/perfect-scrollbar.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/select2/select2.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/select2/select2.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/select2/select2.min.css">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Public/web/vendor/select2/select2.min.js">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Rotativa/help-wkhtmltoimage.txt">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Rotativa/help-wkhtmltopdf.txt">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Rotativa/wkhtmltoimage.exe">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Rotativa/wkhtmltopdf.exe">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/AboutUs/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Account/Index.cshtml">
+      <publishTime>08/26/2018 12:14:19</publishTime>
+    </File>
+    <File Include="Views/Account/Payment.cshtml">
+      <publishTime>08/24/2018 19:01:22</publishTime>
+    </File>
+    <File Include="Views/ApplicationForm/Index.cshtml">
+      <publishTime>08/26/2018 12:38:11</publishTime>
+    </File>
+    <File Include="Views/Blog/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/BlogApply/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/ErrorPage/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Faqs/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/25/2018 22:53:41</publishTime>
+    </File>
+    <File Include="Views/Login/ChangePassword.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Login/Login.cshtml">
+      <publishTime>08/20/2018 15:57:04</publishTime>
+    </File>
+    <File Include="Views/Login/Register.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Login/Reset.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Services/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/26/2018 12:37:25</publishTime>
+    </File>
+    <File Include="Views/Universities/Index.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/05/2018 20:34:58</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/19/2018 10:37:58</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/26/2018 16:03:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

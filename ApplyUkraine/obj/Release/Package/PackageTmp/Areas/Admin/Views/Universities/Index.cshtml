@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ApplyUkraine.Models.University>
+
+@{
+    ViewBag.Title = "Universities";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="color: #716aca;">Index</h3>
+
+<p>
+    @Html.ActionLink("Create New", "Create","universities",null, new { @class="btn btn-brand"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Logo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Raiting)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td style="vertical-align: middle;">
+            @if (item.Name != null)
+            {
+
+                @Html.Raw(item.Name.Length > 50 ? item.Name.Substring(0, 50) + "..." : item.Name)
+            }
+
+        </td>
+        <td style="vertical-align: middle;">
+            <img src="~/Public/images/@Html.DisplayFor(modelItem => item.Logo)" width="100" /> 
+        </td>
+        <td style="vertical-align: middle;">
+            @Html.DisplayFor(modelItem => item.Raiting)
+        </td>
+        <td style="vertical-align: middle;">
+            <span style="display:block;">@Html.ActionLink("Edit", "Edit", new { id = item.Id }) </span>
+            <span style="display:block;">@Html.ActionLink("Details", "Details", new { id = item.Id }) </span>
+            <span style="display:block;">@Html.ActionLink("Delete", "Delete", new { id = item.Id })</span>
+        </td>
+    </tr>
+}
+
+</table>

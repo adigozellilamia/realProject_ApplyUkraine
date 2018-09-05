@@ -1,0 +1,161 @@
+.head {
+  .container {
+    position: relative;
+    .image {
+      img {
+        width: 100%;
+      }
+      .item {
+        position: relative;
+        background-image: url("../images/ukrainian-girl-with-flag.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .text-head {
+          font-family: 'Comfortaa';
+          padding: 20% 10% 10% 10%;
+          z-index: 2;
+          color: white;
+          position: relative;
+          &::before{
+              content: "";
+              position: absolute;
+          }
+          h1 {
+            position: relative;
+            font-size: 48px;
+            font-weight: 500;
+            margin: 0;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -5%;
+                height: 100%;
+                width: 3px;
+                background-color: #ffb606;
+
+            }
+          }
+        }
+      }
+      .owl-nav {
+        // display: none;
+      }
+      .content-page{
+        background-color: white;
+        font-family: 'Comfortaa';
+        // box-shadow: $bg_show;
+          .list{
+              margin: 0;
+              padding: 20px 25px 15px 25px;
+              li{
+                  a{
+                    color: #111;
+                  }
+              }
+              li.active{
+                  position: relative;
+                  padding-left: 30px;
+                  &::before{
+                    position: absolute;
+                    content: "";
+                    width: 5px;
+                    height: 5px;
+                    background: #eee;
+                    border-radius: 100%;
+                    line-height: 25px;
+                    bottom: 10px;
+                    left: 10px;
+                  }
+              }
+          }
+          hr{
+              margin: 0;
+            //   border-top-width: 3px;
+              width: 95%;
+              margin: auto;
+          }
+      }
+    }
+  }
+}
+.our-services{
+    font-family: 'Comfortaa';
+    .services{
+        background-color: white;
+        padding-bottom: 1%;
+        .head-text{
+            a{
+                transition: 0.3s ease-in;
+            }
+        }
+        .services-box{
+            padding: 0 30px;
+            .box{
+                margin-bottom: 15%;
+                border: 1px solid #eee;
+                box-shadow: 6px 4px 18px rgba(0,0,0,.08);
+                transition: 0.3s ease-in;
+                border-radius: 5px;
+                .image{
+                    cursor: pointer;
+                    background-image: url("../images/bg_icon.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 50%;
+                    margin: auto;
+                    margin: 10% auto;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .text{
+                    padding: 10% 0;
+                    text-align: center;
+                    min-height: 130px;
+                    p{
+                        font-size: 16px;
+                        text-transform: capitalize;
+                    }
+
+                }
+                &:hover{
+                    box-shadow: none;
+                }
+            }
+        }
+        .general{
+            background-color: #F0F0F0;
+            text-align: center;
+            
+            border-radius: 5px;
+            padding: 3%;
+            margin: 5%;
+            .icon{
+                font-size: 2.85em;
+                color: #5472D2;
+            }
+            .text{
+                font-family: Comfortaa;
+                .header{
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: #666;
+                }
+                .description{
+                    font-size: 19px;
+                    color: #666;
+                }
+                .specialist{
+                    font-size: 17.5px;
+                    text-align: right;
+                    color: #9d9d9e;
+                }
+            }
+        }
+    }
+    
+    // box-shadow: $bg_show;
+}

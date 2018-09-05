@@ -1,0 +1,51 @@
+﻿@model ApplyUkraine.Models.Image
+
+@{
+    ViewBag.Title = "Images";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="color: #716aca;">Details</h3>
+
+<div>
+    <h4>Image</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+             @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            <img src="~/Public/images/@Html.DisplayFor(model => model.Name)" width="250" /> 
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.About.Header)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.About.Header)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Blog.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Blog.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.University.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.University.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <h5 style="padding-top:5px;">@Html.ActionLink("Edit", "Edit", new { id = Model.Id })</h5>
+    <h5 style="padding-top:5px;">@Html.ActionLink("Back to List", "Index")</h5>
+</p>

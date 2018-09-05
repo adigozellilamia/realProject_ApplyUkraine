@@ -1,0 +1,135 @@
+.contact{
+    .contact-box{
+        font-family: 'Comfortaa';
+        background-color: white;
+        padding: 0 3%;
+        padding-bottom: 5%;
+        .box{
+            .header{
+                padding: 10% 0;
+                h3{
+                    font-size: 30px;
+                    color: #333;
+                    text-transform: uppercase;
+                }
+                p{
+                    position: relative;
+                    margin: 0;
+                    padding-bottom: 5%;
+                    font-size: 14px;
+                    color: #999;
+                    &::after{
+                        position: absolute;
+                        content: "";
+                        bottom: 0;
+                        left: 0;
+                        height: 1px;
+                        background-color: #333;
+                        width: 35px;
+                    }
+                }
+            }
+            .contact-content{
+                padding: 10% 0;
+                border-top: 1px solid #eeeeee;
+                border-bottom: 1px solid #eeeeee;
+
+                .content-box{
+                    
+                    .icon, .tel, .mail, .address{
+                        display: inline-block;
+                        width: 79%;
+                        a{
+                            display: inline-block;
+                        }
+                    }
+                    .tel, .mail, .address{
+                        a{
+                            transition: 0.3s ease-in;
+                            color: #111;
+                            font-size: 16px;
+                            padding-top: 5px;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    .icon{
+                        vertical-align: top;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-align: center;
+                        font-size: 25px;
+                        color: #ffb606;
+                        .fa-phone{
+                            transform: rotate(90deg);
+                        }
+                    }
+                    
+                }
+                hr{
+                    margin: 10% 0;
+                }
+            }
+            .social-content{
+                padding: 10%;
+                .list{
+                    li{
+                        font-size: 16px;
+                        width: 32px;
+                        height: 32px;
+                        line-height: 32px;
+                        text-align: center;
+                        border:1px solid #c9c9c9;
+                        border-radius: 100%;
+                        margin-right: 5px;
+
+                        a{
+                            color: #337ab7;
+                            transition: all .3s;
+                        }
+                        &:nth-child(1):hover{
+                            border-color: #3b5998;
+                            background: #3b5998;
+                            a{
+                                color: #fff;
+                            }
+                        }
+                        &:nth-child(2):hover{
+                            border-color: #00aced;
+                            background: #00aced;
+                            a{
+                                color: #fff;
+                            }
+                        }
+                        &:nth-child(3):hover{
+                            border-color: #517fa4;
+                            background: #517fa4;
+                            a{
+                                color: #fff;
+                            }
+                        }
+                    }
+                   
+                }
+            }
+            .input-content{
+                input, textarea{
+                    border: 1px solid #e5e5e5;
+                    padding: 10px;
+                    font-size: 13px;
+                    width: 100%;
+                    margin-bottom: 20px;
+                    &:focus{
+                        border-color: #ffb606;
+                        outline: none;
+                    }
+                }
+                .btn-demo{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

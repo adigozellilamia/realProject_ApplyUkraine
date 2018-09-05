@@ -1,0 +1,85 @@
+.application-form{
+    font-family: 'Comfortaa';
+    .application-box{
+        background-color: white;
+        .head-text{
+            padding: 5% 0;
+            position: relative;
+            h1{
+                text-transform: uppercase;
+                color: $clr_black;
+            }
+            h4{
+                font-size: 25px;
+                text-align: left;
+            }
+            p{
+                text-align: left;
+            }
+        }
+        .head-text.head{
+            padding-bottom: 0;
+        }
+        .form{
+            padding: 1%;
+            padding-bottom: 10%;
+            .input{
+                padding-bottom: 5%;
+                p{
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin-bottom: 0.5rem;
+                }
+                input[type=text],input[type=date],select{
+                    width: 100%;
+                    padding: 2%;
+                    background: #f7f7f7;
+                    border: 1px solid #c4c4c4;
+                    border-radius: 0;
+                    box-shadow: none;
+                    color: #787878;
+                    transition: all .5s;
+                    &::placeholder{
+                        font-size: 15px;
+                    }
+                    &:focus{
+                        outline-color: #c4c4c4;
+                        background-color: transparent;
+                        border:1px solid #c4c4c4;
+                    }
+                }
+            }
+        }
+        .text-form{
+            text-align: center;
+            border: 4px solid #dd0000;
+            border-radius: 5px;
+            padding: 10% 5%;
+            background-color: #d6d6d6;
+            color: $clr_black;
+            margin-bottom: 10%;
+
+            div{
+                padding-top: 5%;
+                input{
+                    padding: 1%;
+                    width: 50%;
+                }
+            }
+            p{
+                font-weight: 700;
+                font-size: 16px;
+            }
+            span{
+                font-weight: 700;
+                font-size: 15px;
+            }
+
+            .button{
+                text-align: center;
+            }
+        } 
+    }
+}
+
+//o yada hec

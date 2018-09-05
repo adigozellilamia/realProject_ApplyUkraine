@@ -1,0 +1,83 @@
+﻿@model ApplyUkraine.Models.Cours
+
+@{
+    ViewBag.Title = "Cours";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Cours</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Degree)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Degree)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Language)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Language)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Duration)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Duration)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.FirstYear)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FirstYear)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.NextYear)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.NextYear)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Faculty.Name)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Faculty.Name)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

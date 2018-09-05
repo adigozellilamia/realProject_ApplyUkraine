@@ -1,0 +1,28 @@
+.faq{
+    font-family: 'Comfortaa';
+    .faq-box{
+        background-color: white;
+        .head-text{
+            position: relative;
+            h3{
+                text-transform: uppercase;
+                color: $clr_black;
+            }
+            p{
+                color: $clr_p;
+            }
+            span{
+                margin-top: 2%;
+                position: absolute;
+                content: "";
+                background-color: black;
+                width: 5%;
+                height: 1px;
+                transform: translateX(-50%);
+            }
+            h4{
+                font-size: 25px;
+            }
+        }
+    }
+}

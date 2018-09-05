@@ -1,0 +1,894 @@
+﻿@using ApplyUkraine.Models;
+
+
+@{
+    Layout = null;
+}
+
+<html lang="en">
+<!-- begin::Head -->
+<head>
+    <meta charset="utf-8" />
+
+    <title>Metronic | My Profile</title>
+    <meta name="description" content="User profile view and edit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+    <!--begin::Web font -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+    <script>
+          WebFont.load({
+            google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700","Asap+Condensed:500"]},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+          });
+    </script>
+    <!--end::Web font -->
+    <!--begin::Base Styles -->
+
+
+
+    <link href="~/Public/assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" /><!--RTL version:<link href="~/Public/assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+    <link href="~/Public/assets/demo/demo8/base/style.bundle.css" rel="stylesheet" type="text/css" /><!--RTL version:<link href="~/Public/assets/demo/demo8/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+    <link href="~/Public/assets/demo/demo8/base/stylebundleaccount.css" rel="stylesheet" type="text/css" />
+    
+    <!--end::Base Styles -->
+
+    <link rel="shortcut icon" href="~/Public/assets/demo8/demo/media/img/logo/favicon.ico" />
+</head>
+<!-- end::Head -->
+<!-- begin::Body -->
+<body style="background-color:#ffb605" class="m-page--fluid m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+
+    <div class="invitation-letter-overlay" style="position:fixed;width:100vw;height:100vh;z-index:24;display:none; transition:0.3s ease;">
+        <div class="overlay-item" style="width:300px;height:150px;text-align: center;line-height: 150px; margin:auto;position:absolute; top: 0; left: 0; bottom: 0; right: 0; background-color:white;border:1px solid white;border-radius:5px; z-index:556">
+            <p style="">Invitation letter message</p>
+            <span class="invitation-letter-overlay-close" style="font-size: 25px;
+    width: 35px;
+    border-radius: 10px;
+    height: 35px;
+    line-height: 33px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -18px;
+    right: -19px;
+    cursor:pointer;
+">x</span>
+        </div>
+        <div class="overlay" style="position:absolute; background-color:black;opacity:0.6; z-index:25;width:100%;height:100%"></div>
+    </div>
+
+    <!-- begin:: Page -->
+    <div class="m-grid m-grid--hor m-grid--root m-page">
+
+
+        <!-- begin::Header -->
+        <!-- end::Header -->
+        <!-- begin::Body -->
+
+        <div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver-desktop m-grid--desktop m-page__container m-body">
+
+            <!-- BEGIN: Left Aside -->
+            <button class="m-aside-left-close m-aside-left-close--skin-light" id="m_aside_left_close_btn"><i class="la la-close"></i></button>
+
+            <div id="m_aside_left" class="m-grid__item m-aside-left ">
+                <!-- BEGIN: Aside Menu -->
+                <div id="m_ver_menu"
+                     class="m-aside-menu  m-aside-menu--skin-light m-aside-menu--submenu-skin-light "
+                     data-menu-vertical="true"
+                     m-menu-scrollable="0" m-menu-dropdown-timeout="500">
+
+                    <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+                        <li class="m-menu__section m-menu__section--first">
+                            <h4 class="m-menu__section-text">Pages</h4>
+                            <i class="m-menu__section-icon flaticon-more-v3"></i>
+                        </li>
+                        <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" ><a href="@Url.Action("index","ApplicationForm")" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Application Form</span><i class="m-menu__ver-arrow la la-angle-right"></i></a><div class="m-menu__submenu "><span class="m-menu__arrow"></span><ul class="m-menu__subnav"><li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Resources</span></span></li><li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="~/Public/inner2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Timesheet</span></a></li><li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="~/Public/inner2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Payroll</span></a></li><li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="~/Public/inner2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Contacts</span></a></li></ul></div></li>
+                        <li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="@Url.Action("payment")" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Payment</span></a></li>
+                        <li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="@Url.Action("index","home")" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Home</span></a></li>
+                         
+                       
+                        
+                        
+                    </ul>
+                  
+                </div>
+                <!-- END: Aside Menu -->
+            </div>
+            <!-- END: Left Aside -->
+            <div class="m-grid__item m-grid__item--fluid m-wrapper">
+
+                <!-- BEGIN: Subheader -->
+                <div class="m-subheader ">
+                    <div class="d-flex align-items-center">
+                        @*<div class="mr-auto">
+
+                            <h3 class="m-subheader__title ">My Profile @ViewBag.user.Status.Name</h3>
+                        </div>*@
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Subheader -->			     <div class="m-content">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="m-portlet m-portlet--full-height   m-portlet--rounded">
+                                <div class="m-portlet__body">
+                                    <div class="m-card-profile">
+                                        <div class="m-card-profile__title m--hide">
+                                            Your Profile
+                                        </div>
+
+                                        <div class="m-card-profile__details">
+                                            <span class="m-card-profile__name" style="text-transform:capitalize">@ViewBag.user.Name @ViewBag.user.Surname </span>
+                                            <a href="~/Public/" class="m-card-profile__email m-link">@ViewBag.user.Email</a>
+                                            <div style="display:block; text-align:center">
+                                                <div class="btn-apply-ukraine">
+                                                    <a  class="btn-apply-ukraine-invitation">Invitation letter</a>
+                                                </div>
+                                                <div class="form-invitation" style="max-width: 300px ;margin: 0px auto; margin-top:15px;">
+
+                                                    <form>
+                                                        <div class="form-group m-form__group row">
+                                                            <label for="example-text-input" class="col-12 col-form-label">Number</label>
+                                                            <div class="col-12">
+                                                                <input class="form-control m-input" required="" name="Name" type="text" value="Elchin">
+                                                            </div>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-accent m-btn m-btn--air m-btn--custom invitation-letter-checker">Check Number</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <ul class="m-nav m-nav--hover-bg m-portlet-fit--sides">
+                                        <li class="m-nav__separator m-nav__separator--fit"></li>
+                                        <li class="m-nav__section m--hide">
+                                            <span class="m-nav__section-text">Section</span>
+                                        </li>
+                                        <li class="m-nav__item">
+                                            <a href="" class="m-nav__link">
+                                                <i class="m-nav__link-icon flaticon-profile-1"></i>
+                                                <span class="m-nav__link-title">
+                                                    <span class="m-nav__link-wrap">
+                                                        <span class="m-nav__link-text">My Profile </span>
+
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="m-portlet__body-separator"></div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="m-portlet  m-portlet--tabs   m-portlet--rounded">
+                                <div class="m-portlet__head">
+                                    <div class="m-portlet__head-tools">
+                                        <ul class="nav nav-tabs m-tabs m-tabs-line   m-tabs-line--left m-tabs-line--primary" role="tablist">
+                                            <li class="nav-item m-tabs__item">
+                                                <a class="nav-link m-tabs__link active" data-toggle="tab" href="~/Public/#m_user_profile_tab_1" role="tab">
+                                                    <i class="flaticon-share m--hide"></i>
+                                                    Update Profile
+                                                </a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                    <div class="m-portlet__head-tools">
+                                        <ul class="m-portlet__nav">
+                                            <li class="nav-item m-tabs__item">
+                                                <a class="nav-link m-tabs__link" style="
+    display: block;
+    padding: .5rem 1rem;
+    color: red;
+    font-size: 20px;" href="@Url.Action("logout","login")" role="tab">
+                                                    Logout
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="m_user_profile_tab_1">
+                                        <form method="post" action="@Url.Action("update", "account")" class="m-form m-form--fit m-form--label-align-right">
+                                            <div class="m-portlet__body">
+                                                <div class="form-group m-form__group m--margin-top-10 m--hide">
+                                                    <div class="alert m-alert m-alert--default" role="alert">
+                                                        The example form below demonstrates common HTML form elements that receive updated styles from Bootstrap with additional classes.
+                                                    </div>
+                                                </div>
+                                                <div style="display:none;" class="form-group m-form__group row">
+
+                                                    <div style="display:none;" class="col-7">
+                                                        <input class="form-control m-input" required name="Id" type="text" value="@ViewBag.user.Id">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group m-form__group row">
+                                                    <div class="col-10 ml-auto">
+                                                        <h3 class="m-form__section">1. Personal Details</h3>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group m-form__group row">
+                                                    <label for="example-text-input" class="col-2 col-form-label">Name</label>
+                                                    <div class="col-7">
+                                                        <input class="form-control m-input" required name="Name" type="text" value="@ViewBag.user.Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group m-form__group row">
+                                                    <label for="example-text-input" class="col-2 col-form-label">Surname</label>
+                                                    <div class="col-7">
+                                                        <input class="form-control m-input" required name="Surname" type="text" value="@ViewBag.user.Surname">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group m-form__group row">
+                                                    @if (Session["FalseEmail"] != null)
+                                                    {
+                                                        <span>duz email yazin</span>
+                                                    }
+                                                    else if (Session["TrueEmail"] != null)
+                                                    {
+                                                        <span>duzdu</span>
+                                                    }
+                                                    else if (Session["Nothing"] != null)
+                                                    {
+                                                        <span>foreach iwdeyir</span>
+                                                    }
+                                                    <label for="example-text-input" class="col-2 col-form-label">Email</label>
+                                                    <div class="col-7">
+                                                        <input class="form-control m-input" required name="Email" type="email" value="@ViewBag.user.Email">
+                                                    </div>
+                                                </div>
+                                              
+                                                @if (Session["facebookLogin"] == null)
+                                                {
+                                                    <div class="form-group m-form__group row">
+                                                        <label for="example-text-input" class="col-2 col-form-label">Old Password</label>
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" name="oldPassword" type="password">
+                                                            @*<span class="m-form__help">If you want your invoices addressed to a company. Leave blank to use your full name.</span>*@
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group m-form__group row">
+                                                        <label for="example-text-input" class="col-2 col-form-label">New Password</label>
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" name="newPassword" type="password">
+                                                            @*<span class="m-form__help">If you want your invoices addressed to a company. Leave blank to use your full name.</span>*@
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group m-form__group row">
+                                                        <label for="example-text-input" class="col-2 col-form-label">Confirm Password</label>
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" name="Password" type="password">
+                                                            @*<span class="m-form__help">If you want your invoices addressed to a company. Leave blank to use your full name.</span>*@
+                                                        </div>
+                                                    </div>
+                                                }
+                                             
+                                                <div class="form-group m-form__group row">
+                                                    <label for="example-text-input" class="col-2 col-form-label">Phone No.</label>
+                                                    @if (ViewBag.user.TelNumber == null)
+                                                    {
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" required name="TelNumber" type="text" data-validate="Phone number is required" value="+123456789">
+                                                        </div>
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" required name="TelNumber" type="text" data-validate="Phone number is required" value="@ViewBag.user.TelNumber">
+                                                        </div>
+                                                    }
+
+                                                </div>
+                                                <div class="form-group m-form__group row">
+                                                    <label for="example-text-input" class="col-2 col-form-label">Birthday</label>
+                                                  
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" required name="Birthday" type="date" data-validate="Birthday is required" value="@(ViewBag.user.Birthday != null?ViewBag.user.Birthday.ToString("yyyy-MM-dd"):false)">
+                                                        </div>
+                                                  
+
+                                                </div>
+
+                                                <div class="m-form__seperator m-form__seperator--dashed m-form__seperator--space-2x"></div>
+
+                                                <div class="form-group m-form__group row">
+                                                    <div class="col-10 ml-auto">
+                                                        <h3 class="m-form__section">2. Address</h3>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group m-form__group row">
+                                                    <label for="example-text-input" class="col-2 col-form-label">Address</label>
+                                                  
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" required name="Address" data-validate="Address is required" type="text" value="@(ViewBag.user.Address != null?ViewBag.user.Address:"")">
+                                                        </div>
+                                                  
+
+                                                </div>
+                                                <div class="form-group m-form__group row">
+                                                    <label for="example-text-input" class="col-2 col-form-label">Country of Living</label>
+                                                        <div class="col-7">
+                                                            <select name="Country" id="CountryLiving" class="form-control m-input">
+                                                                <option value="1">@(ViewBag.user.Country==null?"Country":ViewBag.user.Country)</option>
+                                                            </select>
+                                                            <input type="text" hidden id="CountryLivingName" value="" />
+                                                        </div>
+                                                </div>
+                                                <div class="form-group m-form__group row">
+                                                    <label for="example-text-input" class="col-2 col-form-label"> City</label>
+                                                    <div class="col-7">
+                                                        <select name="City" id="Cities" class="form-control m-input">
+                                                            <option value="1">@(ViewBag.user.City!=null?ViewBag.user.City:"City")</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                    @*<div class="input">
+                                                        <p>
+                                                            City
+                                                            <span class="clr-red">*</span>
+                                                        </p>
+                                                        <select name="Cities" id="Cities">
+                                                            <option value="">City</option>
+                                                        </select>
+                                                    </div>*@
+
+                                                    <div class="form-group m-form__group row">
+                                                        <label for="example-text-input" class="col-2 col-form-label">Zipcode</label>
+                                                    
+                                                            <div class="col-7">
+                                                                <input class="form-control m-input" required type="text" name="ZipCode" value="@(ViewBag.user.ZipCode != null?ViewBag.user.ZipCode:false)">
+                                                            </div>
+
+                                                    </div>
+
+                                                    <div class="m-form__seperator m-form__seperator--dashed m-form__seperator--space-2x"></div>
+
+                                                    <div class="form-group m-form__group row">
+                                                        <div class="col-10 ml-auto">
+                                                            <h3 class="m-form__section">3. Social Links</h3>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group m-form__group row">
+                                                        <label for="example-text-input" class="col-2 col-form-label">Social links</label>
+                                                        <div class="col-7">
+                                                            <input class="form-control m-input" required type="text" value="www.linkedin.com/Mark.Andre">
+                                                        </div>
+                                                    </div>
+
+
+
+                                                </div>
+                                            <div class="m-portlet__foot m-portlet__foot--fit">
+                                                <div class="m-form__actions">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <button type="submit" class="btn btn-accent m-btn m-btn--air m-btn--custom">Save changes</button>;
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane " id="m_user_profile_tab_2">
+
+                                    </div>
+                                    <div class="tab-pane " id="m_user_profile_tab_3">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end::Body -->
+        <!-- begin::Footer -->
+        <!-- end::Footer -->
+
+
+    </div>
+    <!-- end:: Page -->
+    <!-- begin::Quick Sidebar -->
+    <div id="m_quick_sidebar" class="m-quick-sidebar m-quick-sidebar--tabbed m-quick-sidebar--skin-light">
+        <div class="m-quick-sidebar__content m--hide">
+            <span id="m_quick_sidebar_close" class="m-quick-sidebar__close"><i class="la la-close"></i></span>
+            <ul id="m_quick_sidebar_tabs" class="nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand" role="tablist">
+                <li class="nav-item m-tabs__item">
+                    <a class="nav-link m-tabs__link active" data-toggle="tab" href="~/Public/#m_quick_sidebar_tabs_messenger" role="tab">Messages</a>
+                </li>
+                <li class="nav-item m-tabs__item">
+                    <a class="nav-link m-tabs__link" data-toggle="tab" href="~/Public/#m_quick_sidebar_tabs_settings" role="tab">Settings</a>
+                </li>
+                <li class="nav-item m-tabs__item">
+                    <a class="nav-link m-tabs__link" data-toggle="tab" href="~/Public/#m_quick_sidebar_tabs_logs" role="tab">Logs</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="m_quick_sidebar_tabs_messenger" role="tabpanel">
+                    <div class="m-messenger m-messenger--message-arrow m-messenger--skin-light">
+                        <div class="m-messenger__messages m-scrollable">
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--in">
+                                    <div class="m-messenger__message-pic">
+                                        <img src="~/Public/assets/app/media/img//users/user3.jpg" alt="" />
+                                    </div>
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-username">
+                                                Megan wrote
+                                            </div>
+                                            <div class="m-messenger__message-text">
+                                                Hi Bob. What time will be the meeting ?
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--out">
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-text">
+                                                Hi Megan. It's at 2.30PM
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--in">
+                                    <div class="m-messenger__message-pic">
+                                        <img src="~/Public/assets/app/media/img//users/user3.jpg" alt="" />
+                                    </div>
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-username">
+                                                Megan wrote
+                                            </div>
+                                            <div class="m-messenger__message-text">
+                                                Will the development team be joining ?
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--out">
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-text">
+                                                Yes sure. I invited them as well
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__datetime">2:30PM</div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--in">
+                                    <div class="m-messenger__message-pic">
+                                        <img src="~/Public/assets/app/media/img//users/user3.jpg" alt="" />
+                                    </div>
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-username">
+                                                Megan wrote
+                                            </div>
+                                            <div class="m-messenger__message-text">
+                                                Noted. For the Coca-Cola Mobile App project as well ?
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--out">
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-text">
+                                                Yes, sure.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--out">
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-text">
+                                                Please also prepare the quotation for the Loop CRM project as well.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__datetime">3:15PM</div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--in">
+                                    <div class="m-messenger__message-no-pic m--bg-fill-danger">
+                                        <span>M</span>
+                                    </div>
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-username">
+                                                Megan wrote
+                                            </div>
+                                            <div class="m-messenger__message-text">
+                                                Noted. I will prepare it.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--out">
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-text">
+                                                Thanks Megan. I will see you later.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__wrapper">
+                                <div class="m-messenger__message m-messenger__message--in">
+                                    <div class="m-messenger__message-pic">
+                                        <img src="~/Public/assets/app/media/img//users/user3.jpg" alt="" />
+                                    </div>
+                                    <div class="m-messenger__message-body">
+                                        <div class="m-messenger__message-arrow"></div>
+                                        <div class="m-messenger__message-content">
+                                            <div class="m-messenger__message-username">
+                                                Megan wrote
+                                            </div>
+                                            <div class="m-messenger__message-text">
+                                                Sure. See you in the meeting soon.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="m-messenger__seperator"></div>
+
+                        <div class="m-messenger__form">
+                            <div class="m-messenger__form-controls">
+                                <input type="text" name="" placeholder="Type here..." class="m-messenger__form-input">
+                            </div>
+                            <div class="m-messenger__form-tools">
+                                <a href="~/Public/" class="m-messenger__form-attachment">
+                                    <i class="la la-paperclip"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="m_quick_sidebar_tabs_settings" role="tabpanel">
+                    <div class="m-list-settings m-scrollable">
+                        <div class="m-list-settings__group">
+                            <div class="m-list-settings__heading">General Settings</div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Email Notifications</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Site Tracking</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">SMS Alerts</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Backup Storage</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Audit Logs</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="m-list-settings__group">
+                            <div class="m-list-settings__heading">System Settings</div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">System Logs</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Error Reporting</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Applications Logs</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Backup Servers</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">Audit Logs</span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="m_quick_sidebar_tabs_logs" role="tabpanel">
+                    <div class="m-list-timeline m-scrollable">
+                        <div class="m-list-timeline__group">
+                            <div class="m-list-timeline__heading">
+                                System Logs
+                            </div>
+                            <div class="m-list-timeline__items">
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">12 new users registered <span class="m-badge m-badge--warning m-badge--wide">important</span></a>
+                                    <span class="m-list-timeline__time">Just now</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">System shutdown</a>
+                                    <span class="m-list-timeline__time">11 mins</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">New invoice received</a>
+                                    <span class="m-list-timeline__time">20 mins</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-warning"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Database overloaded 89% <span class="m-badge m-badge--success m-badge--wide">resolved</span></a>
+                                    <span class="m-list-timeline__time">1 hr</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">System error</a>
+                                    <span class="m-list-timeline__time">2 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Production server down <span class="m-badge m-badge--danger m-badge--wide">pending</span></a>
+                                    <span class="m-list-timeline__time">3 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Production server up</a>
+                                    <span class="m-list-timeline__time">5 hrs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-list-timeline__group">
+                            <div class="m-list-timeline__heading">
+                                Applications Logs
+                            </div>
+                            <div class="m-list-timeline__items">
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">New order received <span class="m-badge m-badge--info m-badge--wide">urgent</span></a>
+                                    <span class="m-list-timeline__time">7 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">12 new users registered</a>
+                                    <span class="m-list-timeline__time">Just now</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">System shutdown</a>
+                                    <span class="m-list-timeline__time">11 mins</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">New invoices received</a>
+                                    <span class="m-list-timeline__time">20 mins</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-warning"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Database overloaded 89%</a>
+                                    <span class="m-list-timeline__time">1 hr</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">System error <span class="m-badge m-badge--info m-badge--wide">pending</span></a>
+                                    <span class="m-list-timeline__time">2 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Production server down</a>
+                                    <span class="m-list-timeline__time">3 hrs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-list-timeline__group">
+                            <div class="m-list-timeline__heading">
+                                Server Logs
+                            </div>
+                            <div class="m-list-timeline__items">
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Production server up</a>
+                                    <span class="m-list-timeline__time">5 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">New order received</a>
+                                    <span class="m-list-timeline__time">7 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">12 new users registered</a>
+                                    <span class="m-list-timeline__time">Just now</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">System shutdown</a>
+                                    <span class="m-list-timeline__time">11 mins</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">New invoice received</a>
+                                    <span class="m-list-timeline__time">20 mins</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-warning"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Database overloaded 89%</a>
+                                    <span class="m-list-timeline__time">1 hr</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">System error</a>
+                                    <span class="m-list-timeline__time">2 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Production server down</a>
+                                    <span class="m-list-timeline__time">3 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">Production server up</a>
+                                    <span class="m-list-timeline__time">5 hrs</span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="~/Public/" class="m-list-timeline__text">New order received</a>
+                                    <span class="m-list-timeline__time">1117 hrs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end::Quick Sidebar -->
+    <!-- begin::Scroll Top -->
+    <div id="m_scroll_top" class="m-scroll-top">
+        <i class="la la-arrow-up"></i>
+    </div>
+    <!-- end::Scroll Top -->			<!-- begin::Quick Nav -->
+    <!-- begin::Quick Nav -->
+    <!--begin::Base Scripts -->
+    <script src="~/Public/assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+    <script src="~/Public/assets/demo/demo8/base/scripts.bundle.js" type="text/javascript"></script>
+    <script src="~/Public/assets/demo/demo8/base/scriptbundleaccount.js" type="text/javascript"></script>
+   
+    <script src="~/Public/CountriesApi.js" type="text/javascript"></script>
+    <!--end::Base Scripts -->
+
+
+
+
+
+
+</body>
+<!-- end::Body -->
+</html>

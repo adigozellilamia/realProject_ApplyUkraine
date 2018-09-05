@@ -1,0 +1,265 @@
+﻿@using ApplyUkraine.Models;
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<header class="head">
+    <div class="container">
+        <div class="image">
+            <nav class="navbars">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="logo">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="~/Public/images/apply-ukraine-logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-9 d-flex">
+                        <div class="btn-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu">
+                            <ul class="navs-menu">
+                                <li class="navs-item active">
+                                    <a href="@Url.Action("index","home")" class="navs-a">Home</a>
+                                </li>
+                                <li class="navs-item">
+                                    <a class="navs-a">
+                                        About Us
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a href="@Url.Action("index","aboutUs")">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","services")">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","faqs")">Faqs</a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("index","blog")">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="#" class="navs-a">
+                                        Ukraine universiyies
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menus" aria-labelledby="navbarDropdown">
+                                        
+                                        @foreach (University item in ViewBag.Universities)
+                                        {
+                                            <li>
+                                                <a href="@Url.Action("index","universities",new { id = item.Id })">@item.Name</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                                <li class="navs-item">
+                                    <a href="@Url.Action("index","contact")" class="navs-a">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <a href="@Url.Action("index","ApplicationForm")">
+                                <span>Application form</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="owl-carousel owl-theme">
+                @foreach (Image item in ViewBag.homeCarousel)
+                {
+                    <div class="item">
+                        <img src="~/Public/images/@item.Name" alt="">
+                        <div class="text">
+                            <h1>@item.About.Header</h1>
+                            <p>@item.About.Text</p>
+                        </div>
+                    </div>
+                    
+                }
+
+            </div>
+        </div>
+    </div>
+</header>
+<section class="content-about">
+    <div class="container">
+        <div class="about-us">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about">
+                        <div class="who-we-are">
+                            <div class="owl-carousel uni">
+                                @foreach (Image item in ViewBag.homeUniCarousel)
+                                {
+                                    if (item.AboutId != null)
+                                    {
+                                <div class="item">
+                                    <div class="text">
+                                        <div class="logo">
+                                            <img src="~/Public/images/@item.Name" alt="">
+                                        </div>
+                                        <h3>@item.About.Header</h3>
+                                        <p>@item.About.Text</p>
+                                        <div class="btn-demo">
+                                            <a href="#">Apply now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                    }
+                                    
+                                 }
+                               </div>
+
+                            </div>
+                        </div>
+                    <div class="classes">
+                        <div id="nese" class="images">
+                            <div class="text">
+                                <h3>@(ViewBag.homeUniLetter.Header)</h3>
+                                <p>@(ViewBag.homeUniLetter.Text)</p>
+                                <div class="letter-number">
+                                    <span>Invitation letter number:</span>
+                                    <input type="text" placeholder="xxxxxx">
+                                </div>
+                                @*<div class="birthday-date">
+                                    <span>Your birth date:</span>
+                                    <input type="date" placeholder="">
+                                </div>*@
+                                <div class="btn-demo invitation-letter-overlay-opener">
+                                    <a href="#">Check invitation letter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div id="Lamia" class="photo">
+                        <div class="text">
+                            <h3>@(ViewBag.homeStudyUkraine.Header)</h3>
+                            <p>
+                                @(ViewBag.homeStudyUkraine.Text)
+                            </p>
+                            <div class="btn-demo">
+                                <a href="#">Learn More!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="university">
+    <div class="container">
+        <div class="uni-content">
+            <div class="head-text">
+                <h4>University</h4>
+            </div>
+            <div class="content">
+                <div class="row">
+                    @foreach (Image item in ViewBag.homeUniversity)
+                    {
+                        <div class="col-md-4 col-12">
+                            <div class="uni-img">
+                                <img src="~/Public/images/@item.Name" alt="">
+                                <div class="text">
+                                    <a href="#">
+                                        <p>@item.About.Header</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="description-we">
+    <div class="container">
+        <div class="description-content">
+            <div class="content">
+                <div class="row">
+                    @foreach (About item in ViewBag.homeEducation)
+                    {
+                        <div class="col-md-6">
+                            <div class="text">
+                                <h3>@item.Header</h3>
+                                <p>
+                                    @item.Text
+                                </p>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="invitation">
+    <div class="container">
+        <div class="invitation-content">
+            <div class="head-text">
+                <h4>Invitation</h4>
+            </div>
+            <div class="content">
+                <div class="row">
+                    @foreach (Image item in ViewBag.homeInvitation)
+                    {
+                        <div class="col-lg-3 col-md-6">
+                            <div class="invitation-img">
+                                <div class="icon">
+                                    <img src="~/Public/images/@item.Name" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>@item.About.Header</h3>
+                                    <p>@item.About.Text</p>
+                                    <div class="btn-demo">
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="graduates">
+    <div class="container">
+        <div class="image">
+            <div class="graduet">
+                <div class="row">
+                    @foreach (About item in ViewBag.homeGraduet)
+                    {
+                        <div class="col-md-4">
+                            <div class="persantage">@item.Header</div>
+                            <div class="content-box">@item.Text</div>
+                            <div class="btn-demo">
+                                <a href="#">
+                                    CHOOSE YOURS
+                                    <i class="fas fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

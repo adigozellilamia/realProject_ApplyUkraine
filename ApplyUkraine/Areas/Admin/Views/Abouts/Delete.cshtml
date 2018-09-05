@@ -1,0 +1,57 @@
+﻿@model ApplyUkraine.Models.About
+
+@{
+    ViewBag.Title = "Abouts";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="color: #716aca;">Delete</h3>
+
+<h3 style="color:#f51414;">Are you sure you want to delete this?</h3>
+<div>
+    <h4>About</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Header)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Header)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Text)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Button)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Button)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SectionName.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SectionName.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <h5 style="padding-top:10px;">@Html.ActionLink("Back to List","Index")</h5>
+        </div>
+    }
+</div>

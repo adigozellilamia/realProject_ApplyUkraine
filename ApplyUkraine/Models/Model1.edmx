@@ -1,0 +1,1204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DB_A3F430_Javid009Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Abouts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Header" Type="nvarchar(max)" />
+          <Property Name="Text" Type="text" />
+          <Property Name="Button" Type="nvarchar" MaxLength="50" />
+          <Property Name="SectionId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AdminDashboard">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="68" Nullable="false" />
+          <Property Name="Role" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ApplicationForms">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Birthday" Type="date" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="MobilPhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="SocialNetworks" Type="nvarchar" MaxLength="50" />
+          <Property Name="Skype" Type="nvarchar" MaxLength="50" />
+          <Property Name="InvitationLetterAddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="ZipCode" Type="nvarchar" MaxLength="50" />
+          <Property Name="Language" Type="nvarchar" MaxLength="20" />
+          <Property Name="CoursToUniversityId" Type="int" />
+          <Property Name="Passport" Type="nvarchar" MaxLength="500" />
+          <Property Name="Certificate" Type="nvarchar" MaxLength="500" />
+          <Property Name="CountryCitizen" Type="nvarchar" MaxLength="50" />
+          <Property Name="CountryLiving" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cities" Type="nvarchar" MaxLength="50" />
+          <Property Name="DegreeId" Type="int" />
+          <Property Name="SubmitDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Blog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Date" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Header" Type="nvarchar(max)" />
+          <Property Name="Text" Type="text" />
+        </EntityType>
+        <EntityType Name="Comments">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="BlogId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Courses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="FacultyId" Type="int" Nullable="false" />
+          <Property Name="Degree" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Language" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Duration" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="FirstYear" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NextYear" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CoursToUniversity">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UniversityId" Type="int" Nullable="false" />
+          <Property Name="CoursId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Degrees">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Descriptions">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Header" Type="nvarchar(max)" />
+          <Property Name="Text" Type="text" />
+          <Property Name="UniversityId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Faculties">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Images">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="AboutId" Type="int" />
+          <Property Name="UniversityId" Type="int" />
+          <Property Name="BlogId" Type="int" />
+        </EntityType>
+        <EntityType Name="InvitationLetters">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="InvitationNumber" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Letters">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="No" Type="nvarchar" MaxLength="50" />
+          <Property Name="Result" Type="bit" />
+        </EntityType>
+        <EntityType Name="SectionName">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Universities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Logo" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Raiting" Type="int" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="100" />
+          <Property Name="TelNumber" Type="nvarchar" MaxLength="50" />
+          <Property Name="Birthday" Type="date" />
+          <Property Name="Address" Type="nvarchar" MaxLength="50" />
+          <Property Name="ZipCode" Type="nvarchar" MaxLength="50" />
+          <Property Name="City" Type="nvarchar" MaxLength="50" />
+          <Property Name="Country" Type="nvarchar" MaxLength="50" />
+          <Property Name="StatusId" Type="int" />
+          <Property Name="facebookId" Type="nvarchar" MaxLength="100" />
+          <Property Name="Token" Type="nvarchar" MaxLength="500" />
+          <Property Name="ForgotToken" Type="nvarchar" MaxLength="500" />
+          <Property Name="IsConfirm" Type="bit" />
+          <Property Name="Paid" Type="bit" />
+        </EntityType>
+        <EntityType Name="UsersForms">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="AppFormId" Type="int" />
+          <Property Name="LetterId" Type="int" />
+        </EntityType>
+        <Association Name="FK__Comments__BlogId__47DBAE45">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="1" />
+          <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="BlogId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Courses__Faculty__3B75D760">
+          <End Role="Faculties" Type="Self.Faculties" Multiplicity="1" />
+          <End Role="Courses" Type="Self.Courses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Courses">
+              <PropertyRef Name="FacultyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CoursToUn__Cours__3F466844">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+          <End Role="CoursToUniversity" Type="Self.CoursToUniversity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CoursToUniversity">
+              <PropertyRef Name="CoursId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CoursToUn__Unive__3E52440B">
+          <End Role="Universities" Type="Self.Universities" Multiplicity="1" />
+          <End Role="CoursToUniversity" Type="Self.CoursToUniversity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Universities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CoursToUniversity">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Descripti__Unive__4222D4EF">
+          <End Role="Universities" Type="Self.Universities" Multiplicity="1" />
+          <End Role="Descriptions" Type="Self.Descriptions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Universities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Descriptions">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Invitatio__UserI__5165187F">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="InvitationLetters" Type="Self.InvitationLetters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InvitationLetters">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Abouts_SectionName">
+          <End Role="SectionName" Type="Self.SectionName" Multiplicity="1" />
+          <End Role="Abouts" Type="Self.Abouts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SectionName">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Abouts">
+              <PropertyRef Name="SectionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicationForms_ApplicationForms">
+          <End Role="ApplicationForms" Type="Self.ApplicationForms" Multiplicity="1" />
+          <End Role="ApplicationForms1" Type="Self.ApplicationForms" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="ApplicationForms">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicationForms1">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicationForms_Degrees">
+          <End Role="Degrees" Type="Self.Degrees" Multiplicity="0..1" />
+          <End Role="ApplicationForms" Type="Self.ApplicationForms" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Degrees">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicationForms">
+              <PropertyRef Name="DegreeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Images_Abouts">
+          <End Role="Abouts" Type="Self.Abouts" Multiplicity="0..1" />
+          <End Role="Images" Type="Self.Images" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Abouts">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Images">
+              <PropertyRef Name="AboutId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Images_Blog">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="0..1" />
+          <End Role="Images" Type="Self.Images" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Images">
+              <PropertyRef Name="BlogId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Images_Universities">
+          <End Role="Universities" Type="Self.Universities" Multiplicity="0..1" />
+          <End Role="Images" Type="Self.Images" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Universities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Images">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Status">
+          <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Status">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="StatusId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersForms_ApplicationForms">
+          <End Role="ApplicationForms" Type="Self.ApplicationForms" Multiplicity="0..1" />
+          <End Role="UsersForms" Type="Self.UsersForms" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ApplicationForms">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsersForms">
+              <PropertyRef Name="AppFormId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersForms_Letters">
+          <End Role="Letters" Type="Self.Letters" Multiplicity="0..1" />
+          <End Role="UsersForms" Type="Self.UsersForms" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Letters">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsersForms">
+              <PropertyRef Name="LetterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersForms_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="UsersForms" Type="Self.UsersForms" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsersForms">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB_A3F430_Javid009ModelStoreContainer">
+          <EntitySet Name="Abouts" EntityType="Self.Abouts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AdminDashboard" EntityType="Self.AdminDashboard" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ApplicationForms" EntityType="Self.ApplicationForms" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Blog" EntityType="Self.Blog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Comments" EntityType="Self.Comments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Courses" EntityType="Self.Courses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CoursToUniversity" EntityType="Self.CoursToUniversity" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Degrees" EntityType="Self.Degrees" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Descriptions" EntityType="Self.Descriptions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Faculties" EntityType="Self.Faculties" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Images" EntityType="Self.Images" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="InvitationLetters" EntityType="Self.InvitationLetters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Letters" EntityType="Self.Letters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SectionName" EntityType="Self.SectionName" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Universities" EntityType="Self.Universities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UsersForms" EntityType="Self.UsersForms" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Comments__BlogId__47DBAE45" Association="Self.FK__Comments__BlogId__47DBAE45">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="Comments" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Courses__Faculty__3B75D760" Association="Self.FK__Courses__Faculty__3B75D760">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Courses" EntitySet="Courses" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CoursToUn__Cours__3F466844" Association="Self.FK__CoursToUn__Cours__3F466844">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="CoursToUniversity" EntitySet="CoursToUniversity" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CoursToUn__Unive__3E52440B" Association="Self.FK__CoursToUn__Unive__3E52440B">
+            <End Role="Universities" EntitySet="Universities" />
+            <End Role="CoursToUniversity" EntitySet="CoursToUniversity" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Descripti__Unive__4222D4EF" Association="Self.FK__Descripti__Unive__4222D4EF">
+            <End Role="Universities" EntitySet="Universities" />
+            <End Role="Descriptions" EntitySet="Descriptions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Invitatio__UserI__5165187F" Association="Self.FK__Invitatio__UserI__5165187F">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="InvitationLetters" EntitySet="InvitationLetters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Abouts_SectionName" Association="Self.FK_Abouts_SectionName">
+            <End Role="SectionName" EntitySet="SectionName" />
+            <End Role="Abouts" EntitySet="Abouts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicationForms_ApplicationForms" Association="Self.FK_ApplicationForms_ApplicationForms">
+            <End Role="ApplicationForms" EntitySet="ApplicationForms" />
+            <End Role="ApplicationForms1" EntitySet="ApplicationForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicationForms_Degrees" Association="Self.FK_ApplicationForms_Degrees">
+            <End Role="Degrees" EntitySet="Degrees" />
+            <End Role="ApplicationForms" EntitySet="ApplicationForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Images_Abouts" Association="Self.FK_Images_Abouts">
+            <End Role="Abouts" EntitySet="Abouts" />
+            <End Role="Images" EntitySet="Images" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Images_Blog" Association="Self.FK_Images_Blog">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="Images" EntitySet="Images" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Images_Universities" Association="Self.FK_Images_Universities">
+            <End Role="Universities" EntitySet="Universities" />
+            <End Role="Images" EntitySet="Images" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Status" Association="Self.FK_Users_Status">
+            <End Role="Status" EntitySet="Status" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersForms_ApplicationForms" Association="Self.FK_UsersForms_ApplicationForms">
+            <End Role="ApplicationForms" EntitySet="ApplicationForms" />
+            <End Role="UsersForms" EntitySet="UsersForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersForms_Letters" Association="Self.FK_UsersForms_Letters">
+            <End Role="Letters" EntitySet="Letters" />
+            <End Role="UsersForms" EntitySet="UsersForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersForms_Users" Association="Self.FK_UsersForms_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UsersForms" EntitySet="UsersForms" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB_A3F430_Javid009Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="About">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Header" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Button" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SectionId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="SectionName" Relationship="Self.FK_Abouts_SectionName" FromRole="Abouts" ToRole="SectionName" />
+          <NavigationProperty Name="Images" Relationship="Self.FK_Images_Abouts" FromRole="Abouts" ToRole="Images" />
+        </EntityType>
+        <EntityType Name="AdminDashboard">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="68" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ApplicationForm">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Birthday" Type="DateTime" Precision="0" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MobilPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SocialNetworks" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Skype" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="InvitationLetterAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ZipCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Language" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="CoursToUniversityId" Type="Int32" />
+          <Property Name="Passport" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Certificate" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="CountryCitizen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CountryLiving" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cities" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DegreeId" Type="Int32" />
+          <NavigationProperty Name="ApplicationForms1" Relationship="Self.FK_ApplicationForms_ApplicationForms" FromRole="ApplicationForms" ToRole="ApplicationForms1" />
+          <NavigationProperty Name="ApplicationForm1" Relationship="Self.FK_ApplicationForms_ApplicationForms" FromRole="ApplicationForms1" ToRole="ApplicationForms" />
+          <NavigationProperty Name="Degree" Relationship="Self.FK_ApplicationForms_Degrees" FromRole="ApplicationForms" ToRole="Degrees" />
+          <NavigationProperty Name="UsersForms" Relationship="Self.FK_UsersForms_ApplicationForms" FromRole="ApplicationForms" ToRole="UsersForms" />
+          <Property Name="SubmitDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Blog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Header" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Comments" Relationship="Self.FK__Comments__BlogId__47DBAE45" FromRole="Blog" ToRole="Comments" />
+          <NavigationProperty Name="Images" Relationship="Self.FK_Images_Blog" FromRole="Blog" ToRole="Images" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BlogId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Blog" Relationship="Self.FK__Comments__BlogId__47DBAE45" FromRole="Comments" ToRole="Blog" />
+        </EntityType>
+        <EntityType Name="Cours">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FacultyId" Type="Int32" Nullable="false" />
+          <Property Name="Degree" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Language" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Duration" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FirstYear" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NextYear" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Faculty" Relationship="Self.FK__Courses__Faculty__3B75D760" FromRole="Courses" ToRole="Faculties" />
+          <NavigationProperty Name="CoursToUniversities" Relationship="Self.FK__CoursToUn__Cours__3F466844" FromRole="Courses" ToRole="CoursToUniversity" />
+        </EntityType>
+        <EntityType Name="CoursToUniversity">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UniversityId" Type="Int32" Nullable="false" />
+          <Property Name="CoursId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Cours" Relationship="Self.FK__CoursToUn__Cours__3F466844" FromRole="CoursToUniversity" ToRole="Courses" />
+          <NavigationProperty Name="University" Relationship="Self.FK__CoursToUn__Unive__3E52440B" FromRole="CoursToUniversity" ToRole="Universities" />
+        </EntityType>
+        <EntityType Name="Degree">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ApplicationForms" Relationship="Self.FK_ApplicationForms_Degrees" FromRole="Degrees" ToRole="ApplicationForms" />
+        </EntityType>
+        <EntityType Name="Description">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Header" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="UniversityId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="University" Relationship="Self.FK__Descripti__Unive__4222D4EF" FromRole="Descriptions" ToRole="Universities" />
+        </EntityType>
+        <EntityType Name="Faculty">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Courses" Relationship="Self.FK__Courses__Faculty__3B75D760" FromRole="Faculties" ToRole="Courses" />
+        </EntityType>
+        <EntityType Name="Image">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AboutId" Type="Int32" />
+          <Property Name="UniversityId" Type="Int32" />
+          <Property Name="BlogId" Type="Int32" />
+          <NavigationProperty Name="About" Relationship="Self.FK_Images_Abouts" FromRole="Images" ToRole="Abouts" />
+          <NavigationProperty Name="Blog" Relationship="Self.FK_Images_Blog" FromRole="Images" ToRole="Blog" />
+          <NavigationProperty Name="University" Relationship="Self.FK_Images_Universities" FromRole="Images" ToRole="Universities" />
+        </EntityType>
+        <EntityType Name="InvitationLetter">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="InvitationNumber" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="DB_A3F430_Javid009Model.FK__Invitatio__UserI__5165187F" FromRole="InvitationLetter" ToRole="User" />
+        </EntityType>
+        <EntityType Name="SectionName">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Abouts" Relationship="Self.FK_Abouts_SectionName" FromRole="SectionName" ToRole="Abouts" />
+        </EntityType>
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Users" Relationship="DB_A3F430_Javid009Model.FK_Users_Status" FromRole="Status" ToRole="User" />
+        </EntityType>
+        <EntityType Name="University">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Logo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Raiting" Type="Int32" />
+          <NavigationProperty Name="CoursToUniversities" Relationship="Self.FK__CoursToUn__Unive__3E52440B" FromRole="Universities" ToRole="CoursToUniversity" />
+          <NavigationProperty Name="Descriptions" Relationship="Self.FK__Descripti__Unive__4222D4EF" FromRole="Universities" ToRole="Descriptions" />
+          <NavigationProperty Name="Images" Relationship="Self.FK_Images_Universities" FromRole="Universities" ToRole="Images" />
+        </EntityType>
+        <EntityType Name="UsersForm">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="AppFormId" Type="Int32" />
+          <NavigationProperty Name="ApplicationForm" Relationship="Self.FK_UsersForms_ApplicationForms" FromRole="UsersForms" ToRole="ApplicationForms" />
+          <Property Name="LetterId" Type="Int32" />
+          <NavigationProperty Name="Letter" Relationship="DB_A3F430_Javid009Model.FK_UsersForms_Letters" FromRole="UsersForm" ToRole="Letter" />
+          <NavigationProperty Name="User" Relationship="DB_A3F430_Javid009Model.FK_UsersForms_Users" FromRole="UsersForm" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_Abouts_SectionName">
+          <End Role="SectionName" Type="Self.SectionName" Multiplicity="1" />
+          <End Role="Abouts" Type="Self.About" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SectionName">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Abouts">
+              <PropertyRef Name="SectionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Images_Abouts">
+          <End Role="Abouts" Type="Self.About" Multiplicity="0..1" />
+          <End Role="Images" Type="Self.Image" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Abouts">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Images">
+              <PropertyRef Name="AboutId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicationForms_ApplicationForms">
+          <End Role="ApplicationForms" Type="Self.ApplicationForm" Multiplicity="1" />
+          <End Role="ApplicationForms1" Type="Self.ApplicationForm" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="ApplicationForms">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicationForms1">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApplicationForms_Degrees">
+          <End Role="Degrees" Type="Self.Degree" Multiplicity="0..1" />
+          <End Role="ApplicationForms" Type="Self.ApplicationForm" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Degrees">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ApplicationForms">
+              <PropertyRef Name="DegreeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersForms_ApplicationForms">
+          <End Role="ApplicationForms" Type="Self.ApplicationForm" Multiplicity="0..1" />
+          <End Role="UsersForms" Type="Self.UsersForm" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ApplicationForms">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsersForms">
+              <PropertyRef Name="AppFormId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Comments__BlogId__47DBAE45">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="1" />
+          <End Role="Comments" Type="Self.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="BlogId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Images_Blog">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="0..1" />
+          <End Role="Images" Type="Self.Image" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Images">
+              <PropertyRef Name="BlogId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Courses__Faculty__3B75D760">
+          <End Role="Faculties" Type="Self.Faculty" Multiplicity="1" />
+          <End Role="Courses" Type="Self.Cours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Courses">
+              <PropertyRef Name="FacultyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CoursToUn__Cours__3F466844">
+          <End Role="Courses" Type="Self.Cours" Multiplicity="1" />
+          <End Role="CoursToUniversity" Type="Self.CoursToUniversity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CoursToUniversity">
+              <PropertyRef Name="CoursId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CoursToUn__Unive__3E52440B">
+          <End Role="Universities" Type="Self.University" Multiplicity="1" />
+          <End Role="CoursToUniversity" Type="Self.CoursToUniversity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Universities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CoursToUniversity">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Descripti__Unive__4222D4EF">
+          <End Role="Universities" Type="Self.University" Multiplicity="1" />
+          <End Role="Descriptions" Type="Self.Description" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Universities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Descriptions">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Images_Universities">
+          <End Role="Universities" Type="Self.University" Multiplicity="0..1" />
+          <End Role="Images" Type="Self.Image" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Universities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Images">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ApplyUkraineDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Abouts" EntityType="Self.About" />
+          <EntitySet Name="AdminDashboards" EntityType="Self.AdminDashboard" />
+          <EntitySet Name="ApplicationForms" EntityType="Self.ApplicationForm" />
+          <EntitySet Name="Blogs" EntityType="Self.Blog" />
+          <EntitySet Name="Comments" EntityType="Self.Comment" />
+          <EntitySet Name="Courses" EntityType="Self.Cours" />
+          <EntitySet Name="CoursToUniversities" EntityType="Self.CoursToUniversity" />
+          <EntitySet Name="Degrees" EntityType="Self.Degree" />
+          <EntitySet Name="Descriptions" EntityType="Self.Description" />
+          <EntitySet Name="Faculties" EntityType="Self.Faculty" />
+          <EntitySet Name="Images" EntityType="Self.Image" />
+          <EntitySet Name="InvitationLetters" EntityType="Self.InvitationLetter" />
+          <EntitySet Name="SectionNames" EntityType="Self.SectionName" />
+          <EntitySet Name="Status" EntityType="Self.Status" />
+          <EntitySet Name="Universities" EntityType="Self.University" />
+          <EntitySet Name="UsersForms" EntityType="Self.UsersForm" />
+          <AssociationSet Name="FK_Abouts_SectionName" Association="Self.FK_Abouts_SectionName">
+            <End Role="SectionName" EntitySet="SectionNames" />
+            <End Role="Abouts" EntitySet="Abouts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Images_Abouts" Association="Self.FK_Images_Abouts">
+            <End Role="Abouts" EntitySet="Abouts" />
+            <End Role="Images" EntitySet="Images" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicationForms_ApplicationForms" Association="Self.FK_ApplicationForms_ApplicationForms">
+            <End Role="ApplicationForms" EntitySet="ApplicationForms" />
+            <End Role="ApplicationForms1" EntitySet="ApplicationForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApplicationForms_Degrees" Association="Self.FK_ApplicationForms_Degrees">
+            <End Role="Degrees" EntitySet="Degrees" />
+            <End Role="ApplicationForms" EntitySet="ApplicationForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersForms_ApplicationForms" Association="Self.FK_UsersForms_ApplicationForms">
+            <End Role="ApplicationForms" EntitySet="ApplicationForms" />
+            <End Role="UsersForms" EntitySet="UsersForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Comments__BlogId__47DBAE45" Association="Self.FK__Comments__BlogId__47DBAE45">
+            <End Role="Blog" EntitySet="Blogs" />
+            <End Role="Comments" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Images_Blog" Association="Self.FK_Images_Blog">
+            <End Role="Blog" EntitySet="Blogs" />
+            <End Role="Images" EntitySet="Images" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Courses__Faculty__3B75D760" Association="Self.FK__Courses__Faculty__3B75D760">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Courses" EntitySet="Courses" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CoursToUn__Cours__3F466844" Association="Self.FK__CoursToUn__Cours__3F466844">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="CoursToUniversity" EntitySet="CoursToUniversities" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CoursToUn__Unive__3E52440B" Association="Self.FK__CoursToUn__Unive__3E52440B">
+            <End Role="Universities" EntitySet="Universities" />
+            <End Role="CoursToUniversity" EntitySet="CoursToUniversities" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Descripti__Unive__4222D4EF" Association="Self.FK__Descripti__Unive__4222D4EF">
+            <End Role="Universities" EntitySet="Universities" />
+            <End Role="Descriptions" EntitySet="Descriptions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Images_Universities" Association="Self.FK_Images_Universities">
+            <End Role="Universities" EntitySet="Universities" />
+            <End Role="Images" EntitySet="Images" />
+          </AssociationSet>
+          <EntitySet Name="Letters" EntityType="DB_A3F430_Javid009Model.Letter" />
+          <EntitySet Name="Users" EntityType="DB_A3F430_Javid009Model.User" />
+          <AssociationSet Name="FK__Invitatio__UserI__5165187F" Association="DB_A3F430_Javid009Model.FK__Invitatio__UserI__5165187F">
+            <End Role="User" EntitySet="Users" />
+            <End Role="InvitationLetter" EntitySet="InvitationLetters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersForms_Letters" Association="DB_A3F430_Javid009Model.FK_UsersForms_Letters">
+            <End Role="Letter" EntitySet="Letters" />
+            <End Role="UsersForm" EntitySet="UsersForms" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Status" Association="DB_A3F430_Javid009Model.FK_Users_Status">
+            <End Role="Status" EntitySet="Status" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsersForms_Users" Association="DB_A3F430_Javid009Model.FK_UsersForms_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="UsersForm" EntitySet="UsersForms" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="Letter">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="No" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Result" Type="Boolean" />
+          <NavigationProperty Name="UsersForms" Relationship="DB_A3F430_Javid009Model.FK_UsersForms_Letters" FromRole="Letter" ToRole="UsersForm" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="TelNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Birthday" Type="DateTime" Precision="0" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ZipCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="StatusId" Type="Int32" />
+          <Property Name="facebookId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Token" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="ForgotToken" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="IsConfirm" Type="Boolean" />
+          <Property Name="Paid" Type="Boolean" />
+          <NavigationProperty Name="InvitationLetters" Relationship="DB_A3F430_Javid009Model.FK__Invitatio__UserI__5165187F" FromRole="User" ToRole="InvitationLetter" />
+          <NavigationProperty Name="Status" Relationship="DB_A3F430_Javid009Model.FK_Users_Status" FromRole="User" ToRole="Status" />
+          <NavigationProperty Name="UsersForms" Relationship="DB_A3F430_Javid009Model.FK_UsersForms_Users" FromRole="User" ToRole="UsersForm" />
+        </EntityType>
+        <Association Name="FK__Invitatio__UserI__5165187F">
+          <End Type="DB_A3F430_Javid009Model.User" Role="User" Multiplicity="1" />
+          <End Type="DB_A3F430_Javid009Model.InvitationLetter" Role="InvitationLetter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InvitationLetter">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersForms_Letters">
+          <End Type="DB_A3F430_Javid009Model.Letter" Role="Letter" Multiplicity="0..1" />
+          <End Type="DB_A3F430_Javid009Model.UsersForm" Role="UsersForm" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Letter">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsersForm">
+              <PropertyRef Name="LetterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Status">
+          <End Type="DB_A3F430_Javid009Model.Status" Role="Status" Multiplicity="0..1" />
+          <End Type="DB_A3F430_Javid009Model.User" Role="User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Status">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="StatusId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsersForms_Users">
+          <End Type="DB_A3F430_Javid009Model.User" Role="User" Multiplicity="0..1" />
+          <End Type="DB_A3F430_Javid009Model.UsersForm" Role="UsersForm" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsersForm">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DB_A3F430_Javid009ModelStoreContainer" CdmEntityContainer="ApplyUkraineDBEntities">
+          <EntitySetMapping Name="Abouts">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.About">
+              <MappingFragment StoreEntitySet="Abouts">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Header" ColumnName="Header" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="Button" ColumnName="Button" />
+                <ScalarProperty Name="SectionId" ColumnName="SectionId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AdminDashboards">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.AdminDashboard">
+              <MappingFragment StoreEntitySet="AdminDashboard">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ApplicationForms">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.ApplicationForm">
+              <MappingFragment StoreEntitySet="ApplicationForms">
+                <ScalarProperty Name="SubmitDate" ColumnName="SubmitDate" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="MobilPhone" ColumnName="MobilPhone" />
+                <ScalarProperty Name="SocialNetworks" ColumnName="SocialNetworks" />
+                <ScalarProperty Name="Skype" ColumnName="Skype" />
+                <ScalarProperty Name="InvitationLetterAddress" ColumnName="InvitationLetterAddress" />
+                <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+                <ScalarProperty Name="Language" ColumnName="Language" />
+                <ScalarProperty Name="CoursToUniversityId" ColumnName="CoursToUniversityId" />
+                <ScalarProperty Name="Passport" ColumnName="Passport" />
+                <ScalarProperty Name="Certificate" ColumnName="Certificate" />
+                <ScalarProperty Name="CountryCitizen" ColumnName="CountryCitizen" />
+                <ScalarProperty Name="CountryLiving" ColumnName="CountryLiving" />
+                <ScalarProperty Name="Cities" ColumnName="Cities" />
+                <ScalarProperty Name="DegreeId" ColumnName="DegreeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Blogs">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Blog">
+              <MappingFragment StoreEntitySet="Blog">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Header" ColumnName="Header" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Comments">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Comment">
+              <MappingFragment StoreEntitySet="Comments">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="BlogId" ColumnName="BlogId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Courses">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Cours">
+              <MappingFragment StoreEntitySet="Courses">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="FacultyId" ColumnName="FacultyId" />
+                <ScalarProperty Name="Degree" ColumnName="Degree" />
+                <ScalarProperty Name="Language" ColumnName="Language" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="FirstYear" ColumnName="FirstYear" />
+                <ScalarProperty Name="NextYear" ColumnName="NextYear" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CoursToUniversities">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.CoursToUniversity">
+              <MappingFragment StoreEntitySet="CoursToUniversity">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UniversityId" ColumnName="UniversityId" />
+                <ScalarProperty Name="CoursId" ColumnName="CoursId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Degrees">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Degree">
+              <MappingFragment StoreEntitySet="Degrees">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Descriptions">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Description">
+              <MappingFragment StoreEntitySet="Descriptions">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Header" ColumnName="Header" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="UniversityId" ColumnName="UniversityId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Faculties">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Faculty">
+              <MappingFragment StoreEntitySet="Faculties">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Images">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Image">
+              <MappingFragment StoreEntitySet="Images">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="AboutId" ColumnName="AboutId" />
+                <ScalarProperty Name="UniversityId" ColumnName="UniversityId" />
+                <ScalarProperty Name="BlogId" ColumnName="BlogId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="InvitationLetters">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.InvitationLetter">
+              <MappingFragment StoreEntitySet="InvitationLetters">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="InvitationNumber" ColumnName="InvitationNumber" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SectionNames">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.SectionName">
+              <MappingFragment StoreEntitySet="SectionName">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Status">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Status">
+              <MappingFragment StoreEntitySet="Status">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Universities">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.University">
+              <MappingFragment StoreEntitySet="Universities">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="Raiting" ColumnName="Raiting" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UsersForms">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.UsersForm">
+              <MappingFragment StoreEntitySet="UsersForms">
+                <ScalarProperty Name="LetterId" ColumnName="LetterId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="AppFormId" ColumnName="AppFormId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Letters">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.Letter">
+              <MappingFragment StoreEntitySet="Letters">
+                <ScalarProperty Name="Result" ColumnName="Result" />
+                <ScalarProperty Name="No" ColumnName="No" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="DB_A3F430_Javid009Model.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Paid" ColumnName="Paid" />
+                <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+                <ScalarProperty Name="ForgotToken" ColumnName="ForgotToken" />
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="facebookId" ColumnName="facebookId" />
+                <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="TelNumber" ColumnName="TelNumber" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

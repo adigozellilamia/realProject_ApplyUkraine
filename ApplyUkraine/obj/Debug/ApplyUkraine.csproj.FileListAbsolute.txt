@@ -1,0 +1,727 @@
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\ApplicationInsights.config
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\ApplyUkraine.dll.config
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\ApplyUkraine.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\ApplyUkraine.pdb
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\csc.exe
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\csc.exe.config
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\csc.rsp
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\csi.exe
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\csi.exe.config
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\csi.rsp
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\Microsoft.Win32.Primitives.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.AppContext.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Collections.Immutable.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Console.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Diagnostics.Process.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.IO.Compression.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.IO.FileSystem.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.IO.Pipes.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Security.AccessControl.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Security.Claims.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Threading.Thread.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.ValueTuple.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Xml.XPath.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\vbc.exe
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\vbc.exe.config
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\vbc.rsp
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\VBCSCompiler.exe
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\roslyn\VBCSCompiler.exe.config
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Antlr3.Runtime.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.Web.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.WindowsServer.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.ApplicationInsights.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.Web.Infrastructure.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Newtonsoft.Json.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Helpers.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Mvc.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Optimization.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Razor.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.WebPages.Deployment.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.WebPages.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.WebPages.Razor.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\WebGrease.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Helpers.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Mvc.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Optimization.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.Razor.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.WebPages.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.WebPages.Deployment.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Web.WebPages.Razor.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Newtonsoft.Json.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Antlr3.Runtime.pdb
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.WindowsServer.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.AI.Web.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CoreCompileInputs.cache
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CopyComplete
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\obj\Debug\ApplyUkraine.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\obj\Debug\ApplyUkraine.pdb
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\EntityFramework.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\EntityFramework.SqlServer.dll
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\EntityFramework.xml
+c:\users\lamiye adigozelli\source\repos\ApplyUkraine\ApplyUkraine\bin\EntityFramework.SqlServer.xml
+C:\Users\Lamiye Adigozelli\source\repos\ApplyUkraine\ApplyUkraine\obj\Debug\ApplyUkraine.csprojAssemblyReference.cache
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\ApplicationInsights.config
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\ApplyUkraine.dll.config
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\ApplyUkraine.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\ApplyUkraine.pdb
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csc.exe
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csc.exe.config
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csc.rsp
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csi.exe
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csi.exe.config
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csi.rsp
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.AppContext.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Console.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.Compression.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Claims.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.ValueTuple.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\vbc.exe
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\vbc.exe.config
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\vbc.rsp
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\VBCSCompiler.exe
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Antlr3.Runtime.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.SqlServer.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.Web.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Newtonsoft.Json.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Helpers.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Mvc.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Optimization.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Razor.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Razor.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\WebGrease.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.SqlServer.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Helpers.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Mvc.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Optimization.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Razor.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Razor.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Newtonsoft.Json.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Antlr3.Runtime.pdb
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.Web.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CoreCompileInputs.cache
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.pdb
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Rotativa.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Facebook.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Facebook.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Owin.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Net.Http.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Net.Http.WebRequest.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Mono.Math.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Net.Http.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\System.Net.Http.WebRequest.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Mono.Math.xml
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\bin\Stripe.net.dll
+C:\Users\Saidinko\Desktop\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.csprojResolveAssemblyReference.cache
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\ApplicationInsights.config
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\ApplyUkraine.dll.config
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\ApplyUkraine.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\ApplyUkraine.pdb
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csc.exe
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csc.exe.config
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csc.rsp
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csi.exe
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csi.exe.config
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\csi.rsp
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.AppContext.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Console.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.Compression.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Claims.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.ValueTuple.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\vbc.exe
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\vbc.exe.config
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\vbc.rsp
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\VBCSCompiler.exe
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Antlr3.Runtime.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.SqlServer.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Facebook.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.Web.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Newtonsoft.Json.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Owin.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Rotativa.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Stripe.net.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Helpers.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Mvc.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Optimization.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Razor.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\WebGrease.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Mono.Math.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\EntityFramework.SqlServer.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Facebook.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Helpers.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Mvc.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Optimization.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.Razor.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Newtonsoft.Json.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Antlr3.Runtime.pdb
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.AI.Web.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\bin\Mono.Math.xml
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CoreCompileInputs.cache
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CopyComplete
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.dll
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.pdb
+C:\Users\Eagha\Desktop\AppUkr\ApplyUkraineFull\ApplyUkraine\obj\Debug\ApplyUkraine.csprojAssemblyReference.cache
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplicationInsights.config
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplyUkraine.dll.config
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplyUkraine.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplyUkraine.pdb
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csc.exe
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csc.exe.config
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csc.rsp
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csi.exe
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csi.exe.config
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csi.rsp
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.AppContext.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Console.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.Compression.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Claims.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.ValueTuple.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\vbc.exe
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\vbc.exe.config
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\vbc.rsp
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\VBCSCompiler.exe
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Antlr3.Runtime.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.SqlServer.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Facebook.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.Web.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Newtonsoft.Json.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Owin.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Rotativa.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Stripe.net.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Net.Http.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Net.Http.WebRequest.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Helpers.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Mvc.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Optimization.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Razor.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Razor.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\WebGrease.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Mono.Math.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.SqlServer.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Facebook.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Net.Http.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Net.Http.WebRequest.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Helpers.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Mvc.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Optimization.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Razor.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Razor.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Newtonsoft.Json.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Antlr3.Runtime.pdb
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.Web.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\bin\Mono.Math.xml
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CoreCompileInputs.cache
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.dll
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.pdb
+C:\Users\Saidinko\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.csprojResolveAssemblyReference.cache
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplicationInsights.config
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplyUkraine.dll.config
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplyUkraine.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\ApplyUkraine.pdb
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csc.exe
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csc.exe.config
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csc.rsp
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csi.exe
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csi.exe.config
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\csi.rsp
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.AppContext.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Console.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.Compression.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Claims.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.ValueTuple.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\vbc.exe
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\vbc.exe.config
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\vbc.rsp
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Antlr3.Runtime.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.SqlServer.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Facebook.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.Web.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Newtonsoft.Json.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Owin.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Rotativa.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Stripe.net.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Helpers.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Mvc.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Optimization.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Razor.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\WebGrease.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Mono.Math.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.Core.UI.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.InfoCard.UI.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Common.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth.ServiceProvider.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.AuthorizationServer.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.Client.UI.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ClientAuthorization.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OAuth2.ResourceServer.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.Provider.UI.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.RelyingParty.UI.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenId.UI.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdInfoCard.UI.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\DotNetOpenAuth.OpenIdOAuth.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\EntityFramework.SqlServer.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Facebook.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Helpers.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Mvc.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Optimization.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.Razor.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Newtonsoft.Json.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Antlr3.Runtime.pdb
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.AI.Web.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\bin\Mono.Math.xml
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.csprojAssemblyReference.cache
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CoreCompileInputs.cache
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.csproj.CopyComplete
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.dll
+C:\Users\Lamiye Adigozelli\Desktop\UkraineApply-master\ApplyUkraine\obj\Debug\ApplyUkraine.pdb

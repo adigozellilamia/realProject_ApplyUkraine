@@ -1,0 +1,255 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login V5</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Public/web/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Public/web/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Public/web/css/main.css">
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script type="text/javascript">
+        var OAUTHURL = 'https://accounts.google.com/o/oauth2/auth?';
+        var VALIDURL = 'https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=';
+        var SCOPE = 'https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email';
+        var CLIENTID = '665810863850-t33lu8i8ppmol9g5i3qc54ilo2gtqtj3.apps.googleusercontent.com';
+        var REDIRECT = 'http://localhost:50538/Login/login';
+        var LOGOUT = 'http://localhost:50538/Login/login';
+        var TYPE = 'token';
+        var _url = OAUTHURL + 'scope=' + SCOPE + '&client_id=' + CLIENTID + '&redirect_uri=' + REDIRECT + '&response_type=' + TYPE;
+        var acToken;
+        var tokenType;
+        var expiresIn;
+        var user;
+        var loggedIn = false;
+
+        function login() {
+
+            var win = window.open(_url, "windowname1", 'width=800, height=600');
+            var pollTimer = window.setInterval(function () {
+                try {
+                    console.log(win.document.URL);
+                    if (win.document.URL.indexOf(REDIRECT) != -1) {
+                        window.clearInterval(pollTimer);
+                        var url = win.document.URL;
+                        acToken = gup(url, 'access_token');
+                        tokenType = gup(url, 'token_type');
+                        expiresIn = gup(url, 'expires_in');
+
+                        win.close();
+                        debugger;
+                        validateToken(acToken);
+                    }
+                }
+                catch (e) {
+
+                }
+            }, 500);
+        }
+
+        function gup(url, name) {
+            namename = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+            var regexS = "[\\#&]" + name + "=([^&#]*)";
+            var regex = new RegExp(regexS);
+            var results = regex.exec(url);
+            if (results == null)
+                return "";
+            else
+                return results[1];
+        }
+
+        function validateToken(token) {
+
+            getUserInfo();
+            $.ajax(
+
+                {
+
+                    url: VALIDURL + token,
+                    data: null,
+                    success: function (responseText) {
+
+
+                    },
+
+                });
+
+        }
+
+        function getUserInfo() {
+
+
+            $.ajax({
+
+                url: 'https://www.googleapis.com/oauth2/v1/userinfo?access_token=' + acToken,
+                data: null,
+                success: function (resp) {
+                    user = resp;
+                    console.log(user);
+                    //$('#uname').html('Welcome ' + user.name);
+                    //$('#uemail').html('Email: ' + user.email)
+                    //$('#imgHolder').attr('src', user.picture);
+
+
+                },
+
+
+            }),
+
+                $.ajax({
+
+                    url: '/Login/GoogleLogin/',
+
+                    type: 'POST',
+                    data: {
+                        email: user.email,
+                        name: user.name,
+                        gender: user.gender,
+                        lastname: user.lastname,
+                        location: user.location
+                    },
+                    success: function () {
+                        window.location.href = "/Login/login";
+                    },
+
+                    //dataType: "jsonp"
+
+                });
+
+
+        }
+
+    </script>
+</head>
+<body>
+ 
+    <div class="limiter">
+        <div class="container-login100" style="background-color:#ffb605;">
+            <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+                <form method="post" action="@Url.Action("SignIn","login")" class="login100-form validate-form flex-sb flex-w">
+                    <span class="login100-form-title p-b-53">
+                        Sign In With
+                    </span>
+                    @if (Session["LoginInvalid"] != null)
+                    {
+                        <span class="login100-form-title " style="padding-bottom:15px">
+                            Invalid Email or Password
+                        </span>
+                    }
+                    @if (Session["FirstYouMustSingIn"] != null)
+                    {
+                        <span class="login100-form-title " style="padding-bottom:15px">
+                           First you must sign in
+                        </span>
+                    }
+                   
+
+                    <a href="@Url.Action("Facebook", "login")" class="btn-face m-b-20">
+                        <i class="fa fa-facebook-official"></i>
+                        Facebook
+                    </a>
+
+                    <button onclick="login()" id="GoogleLogin" class="btn-google m-b-20">
+                        <img src="~/Public/web/images/icons/icon-google.png" alt="GOOGLE">
+                        Google
+                    </button>
+                    <div id="uname"></div>
+        <div id="uemail"></div><br />
+      
+
+                    <div class="p-t-31 p-b-9">
+                        <span class="txt1">
+                            Email
+                        </span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Email is required">
+                        <input class="input100" type="email" name="Email">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="p-t-13 p-b-9">
+                        <span class="txt1">
+                            Password
+                        </span>
+
+                        <a href="@Url.Action("Reset")" class="txt2 bo1 m-l-5">
+                            Forgot?
+                        </a>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        <input class="input100" type="password" name="Password">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="container-login100-form-btn m-t-17">
+                        <button type="submit" class="login100-form-btn">
+                            Sign in
+                        </button>
+                    </div>
+
+                    @if (Session["ChangeSuccess"] != null)
+                    {
+                        <div class="alert alert-success" style="margin-top:10px;">Your password has changed successfully</div>
+                        Session["ChangeSuccess"] = null;
+                    }
+
+                    <div class="w-full text-center p-t-55">
+                        <span class="txt2">
+                            Not a member?
+                        </span>
+                        <a href="@Url.Action("register","login")" class="txt2 bo1"> Sign up now</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="~/Public/web/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Public/web/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Public/web/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/Public/web/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Public/web/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Public/web/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/Public/web/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Public/web/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Public/web/js/main.js"></script>
+  
+</body>
+</html>
